@@ -14,48 +14,48 @@ class Solution {
         {
             return head;
         }
-        int i=1;
+        int i=3;
         ListNode curr = head;
-        ListNode os = null;
-        ListNode oe = null;
-        ListNode es = null;
-        ListNode ee = null;
-        // curr = curr.next.next;
+        ListNode os = head;
+        ListNode oe = head;
+        ListNode es = head.next;
+        ListNode ee = head.next;
+        curr = curr.next.next;
         while (curr != null)
         {
             if (i % 2 != 0)
             {
-                if (os == null)
-                {
-                    os = curr;
-                    oe = curr;
-                    curr = curr.next;
-                    i++;
-                }
-                else
-                {
+                // if (os == null)
+                // {
+                //     os = curr;
+                //     oe = curr;
+                //     curr = curr.next;
+                //     i++;
+                // }
+                // else
+                // {
                     oe.next = curr;
                 oe = curr;
                 curr = curr.next;
                 i++;
-                }
+                //}
             }
             else
             {
-                if (es == null)
-                {
-                    es = curr;
-                    ee = curr;
-                    curr = curr.next;
-                    i++;
-                }
-                else
-                {
+                // if (es == null)
+                // {
+                //     es = curr;
+                //     ee = curr;
+                //     curr = curr.next;
+                //     i++;
+                // }
+                // else
+                // {
                     ee.next = curr;
                 ee = curr;
                 curr = curr.next;
                 i++;
-                }
+                //}
             }
         }
         if (os == null || es == null)
