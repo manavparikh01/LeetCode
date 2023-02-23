@@ -7,13 +7,7 @@ class MyStack {
     }
     
     public void push(int x) {
-        if (q1.isEmpty() == true)
-        {
-            q1.add(x);
-        }
-        else
-        {
-            while (q1.isEmpty() == false)
+        while (q1.isEmpty() == false)
         {
             q2.add(q1.remove());
         }
@@ -22,29 +16,14 @@ class MyStack {
         {
             q1.add(q2.remove());
         }
-        }
-        
     }
     
     public int pop() {
-        if (q1.isEmpty() == true)
-        {
-            return -1;
-        }
-        
             return q1.remove();
-        
     }
     
     public int top() {
-        if (q1.isEmpty() == true)
-        {
-            return -1;
-        }
-        
-        
             return q1.element();
-        
     }
     
     public boolean empty() {
