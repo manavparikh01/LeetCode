@@ -8,18 +8,14 @@ class Solution {
         HashSet<Integer> hs = new HashSet<Integer>();
         for (int i = 0;i<nums.length;i++)
         {
-            hs.add(i+1);
+            hs.add(nums[i]);
         }
-        for (int i = 0;i<nums.length;i++)
+        for (int i = 1;i<=nums.length;i++)
         {
-            if (hs.contains(nums[i]))
+            if (!hs.contains(i))
             {
-                hs.remove(nums[i]);
+                al.add(i);
             }
-        }
-        for (Integer s : hs)
-        {
-            al.add(s);
         }
         return al;
     }
