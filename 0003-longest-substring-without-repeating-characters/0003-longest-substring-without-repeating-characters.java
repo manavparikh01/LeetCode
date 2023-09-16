@@ -19,16 +19,14 @@ class Solution {
                 hs.remove(s.charAt(l));
                 l++;
             }
-            int le = 0;
-            while (r < s.length() && !hs.containsKey(s.charAt(r)))
-            {
-                hs.put(s.charAt(r),r);
-                r++;
-            }
-            //System.out.println(l + " " + r);
-            le = r - l;
-            r--;
-            length = Math.max(length, le);
+            //int le = 0;
+            // while (r < s.length() && !hs.containsKey(s.charAt(r)))
+            // {
+            //     hs.put(s.charAt(r),r);
+            //     r++;
+            // }
+            hs.put(s.charAt(r), r);
+            length = Math.max(length, r - l + 1);
         }
         return length;
     }
