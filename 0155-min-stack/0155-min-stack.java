@@ -22,15 +22,16 @@ class MinStack {
     }
     
     public int getMin() {
-        int min = al.get(0);
-        for (int i = 1;i<size;i++)
-        {
-            if (al.get(i) < min)
-            {
-                min = al.get(i);
-            }
-        }
-        return min;
+        // int min = al.get(0);
+        // for (int i = 1;i<size;i++)
+        // {
+        //     if (al.get(i) < min)
+        //     {
+        //         min = al.get(i);
+        //     }
+        // }
+        // return min;
+        return Collections.min(al);
     }
 }
 
