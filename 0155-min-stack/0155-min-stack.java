@@ -1,37 +1,48 @@
 class MinStack {
-    ArrayList<Integer> al;
-    int size = 0;
+    Stack<Integer> s;
+    Stack<Integer> ms;
 
     public MinStack() {
-        al = new ArrayList<Integer>();
+        s = new Stack<Integer>();
+        ms = new Stack<Integer>();
     }
     
     public void push(int val) {
-        al.add(val);
-        size++;
+        s.push(val);
+        if (ms.isEmpty() == true)
+        {
+            ms.push(val);
+        }
+        else
+        {
+            if (ms.peek() > val)
+            {
+                ms.push(val);
+            }
+            else
+            {
+                ms.push(ms.peek());
+            }
+        }
     }
     
     public void pop() {
-        al.remove(size-1);
-        size--;
+        if (s.isEmpty() != true)
+        {
+            s.pop();
+            ms.pop();
+        }
     }
     
     public int top() {
-        return al.get(size-1);
+        
+            return s.peek();
         
     }
     
     public int getMin() {
-        // int min = al.get(0);
-        // for (int i = 1;i<size;i++)
-        // {
-        //     if (al.get(i) < min)
-        //     {
-        //         min = al.get(i);
-        //     }
-        // }
-        // return min;
-        return Collections.min(al);
+         return ms.peek();
+        
     }
 }
 
