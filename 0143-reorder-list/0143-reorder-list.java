@@ -9,30 +9,40 @@
  * }
  */
 class Solution {
-    public ListNode findTail(ListNode tail)
-    {
-        while (tail.next.next != null)
-        {
-            tail = tail.next;
-        }
-        ListNode last = tail.next;
-        tail.next = null;
-        //System.out.println(tail.val + " tail");
-        return last;
-    }
     public void reorderList(ListNode head) {
-        if (head == null && head.next == null)
+        if (head == null && (head.next == null || head.next.next == null))
         {
             return;
         }
         ListNode curr = head;
-        while (curr.next != null && curr.next.next != null)
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while (fast != null && fast.next != null)
         {
-            ListNode tail = findTail(head);
-            tail.next = curr.next;
-            curr.next = tail;
-            curr = tail.next;
-            //System.out.println(curr.val);
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        ListNode rev = slow.next;
+        slow.next = null;
+        //System.out.println(rev.val);
+        ListNode prev = null;
+        while (rev != null)
+        {
+            ListNode next = rev.next;
+            rev.next = prev;
+            prev = rev;
+            rev = next;
+        }
+        //System.out.println(prev.val + " " + prev.next.val);
+        while (prev != null)
+        {
+            ListNode temp = prev.next;
+            prev.next = curr.next;
+            //System.out.println(curr.next.val + "h");
+            curr.next = prev;
+            curr = prev.next;
+            prev = temp;
+            //System.out.println(prev.val);
         }
     }
 }
