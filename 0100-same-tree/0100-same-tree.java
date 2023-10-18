@@ -27,13 +27,13 @@ class Solution {
         {
             return false;
         }
-        boolean l = isSameTree(p.left, q.left);
-        if (l == false)
+        //boolean l = isSameTree(p.left, q.left);
+        if (isSameTree(p.left, q.left) == false)
         {
             return false;
         }
-        boolean r = isSameTree(p.right, q.right);
-        if (r == false)
+        //boolean r = isSameTree(p.right, q.right);
+        if (isSameTree(p.right, q.right) == false)
         {
             return false;
         }
