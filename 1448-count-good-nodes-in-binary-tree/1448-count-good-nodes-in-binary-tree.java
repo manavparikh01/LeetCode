@@ -29,18 +29,19 @@ class Solution {
         {
             return;
         }
-        if (st.size() == 0)
-        {
-            st.push(root);
-            sum++;
-        }
-        else
+        if (st.size() != 0)
         {
             if (root.val >= st.peek().val)
             {
                 st.push(root);
                 sum++;
             }
+            
+        }
+        else
+        {
+            st.push(root);
+            sum++;
         }
         parseTree(root.left, st);
         parseTree(root.right, st);
