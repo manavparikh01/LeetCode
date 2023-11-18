@@ -1,17 +1,10 @@
 class Solution {
     public List<List<Integer>> l;
     public List<Integer> ll;
-    public HashMap<Integer, Integer> hm;
     
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         l = new ArrayList<>();
         ll = new ArrayList<>();
-        // Arrays.sort(candidates);
-        // hm = new HashMap<>();
-        // for (int i = 0;i<candidates.length;i++)
-        // {
-        //     hm.put(candidates[i], i);
-        // }
         doCombinations(candidates, target, 0, 0);
         return l;
     }
