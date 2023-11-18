@@ -12,14 +12,9 @@ class Solution {
     
     public void findSubsets(int[] nums, int i)
     {
-        if (i >= nums.length)
+        if (i == nums.length)
         {
-            List<Integer> lll = new ArrayList<>(ll);
-            //Collections.sort(lll);
-            if (!l.contains(lll))
-            {
-                l.add(new ArrayList<>(lll));
-            }
+            l.add(new ArrayList<>(ll));
             return;
         }
         
