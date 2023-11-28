@@ -1,21 +1,12 @@
 class Solution {
     public List<List<String>> l;
-    public List<String> ll;
     public boolean arr[][];
     
     public List<List<String>> solveNQueens(int n) {
         l = new ArrayList<>();
-        ll = new ArrayList<>();
         arr = new boolean[n][n];
-        if (n == 1)
-        {
-            ll.add("Q");
-            l.add(new ArrayList<>(ll));
-            return l;
-        }
         
         nQueens(n, 0);
-        
         
         return l;
     }
