@@ -50,8 +50,10 @@ class Solution {
             if (isSafe(r, j, n) == true)
             {
                 arr[r][j] = true;
-                nQueens(n, r+1);
+                r++;
+                nQueens(n, r);
                 
+                r--;
                 arr[r][j] = false;
             }
         }
