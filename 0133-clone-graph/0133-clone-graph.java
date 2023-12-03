@@ -42,33 +42,30 @@ class Solution {
             q.remove();
             int length = now.neighbors.size();
             ArrayList<Node> all = new ArrayList<Node>();
+            Node cur = null;
+            if (h.containsKey(now.val))
+            {
+                cur = h.get(now.val);
+            }
+            else
+            {
+                cur = new Node(now.val);
+                h.put(cur.val, cur);
+            }
             for (int i = 0;i<length;i++)
             {
                 Node again = now.neighbors.get(i);
                 if (h.containsKey(again.val))
                 {
-                    all.add(h.get(again.val));
+                    cur.neighbors.add(h.get(again.val));
                 }
                 else
                 {
                     q.add(again);
                     Node currently = new Node(again.val);
-                    all.add(currently);
+                    cur.neighbors.add(currently);
                     h.put(again.val, currently);
                 }
-            }
-            if (h.containsKey(now.val))
-            {
-                int l = all.size();
-                for (int a = 0;a<l;a++)
-                {
-                    h.get(now.val).neighbors.add(all.get(a));
-                }
-            }
-            else
-            {
-                Node cur = new Node(now.val, all);
-                h.put(now.val, cur);
             }
         }
         return head;
