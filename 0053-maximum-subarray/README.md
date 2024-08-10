@@ -3,24 +3,24 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [-2,1,-3,4,-1,2,1,-5,4]
+<pre><strong>Input:</strong> nums = [-2,1,-3,4,-1,2,1,-5,4]
 <strong>Output:</strong> 6
 <strong>Explanation:</strong> The subarray [4,-1,2,1] has the largest sum 6.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [1]
+<pre><strong>Input:</strong> nums = [1]
 <strong>Output:</strong> 1
 <strong>Explanation:</strong> The subarray [1] has the largest sum 1.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [5,4,-1,7,8]
+<pre><strong>Input:</strong> nums = [5,4,-1,7,8]
 <strong>Output:</strong> 23
 <strong>Explanation:</strong> The subarray [5,4,-1,7,8] has the largest sum 23.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
