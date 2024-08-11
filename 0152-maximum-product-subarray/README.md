@@ -5,17 +5,17 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [2,3,-2,4]
+<pre><strong>Input:</strong> nums = [2,3,-2,4]
 <strong>Output:</strong> 6
 <strong>Explanation:</strong> [2,3] has the largest product 6.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [-2,0,-1]
+<pre><strong>Input:</strong> nums = [-2,0,-1]
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> The result cannot be 2, because [-2,-1] is not a subarray.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
