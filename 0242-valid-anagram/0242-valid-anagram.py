@@ -5,8 +5,16 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        sone = ''.join(sorted(s))
-        tone = ''.join(sorted(t))
-        if sone == tone:
+        if len(s) != len(t):
+            return False
+
+        st = [0] * 26
+        tt = [0] * 26
+
+        for i in range(len(s)):
+            st[ord(s[i]) - ord('a')] += 1
+            tt[ord(t[i]) - ord('a')] += 1
+
+        if st == tt:
             return True
         return False
