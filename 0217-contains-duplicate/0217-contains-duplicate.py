@@ -4,11 +4,5 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        # dict = {}
-        # for i in nums:
-        #     if i in dict:
-        #         return True
-        #     dict[i] = 1
-        # return False
-        return len(nums) != len(set(nums))
+        return len(set(nums)) != len(nums)
         
