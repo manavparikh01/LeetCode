@@ -7,14 +7,20 @@ class Solution(object):
         """
         if len(s) != len(t):
             return False
-
-        st = [0] * 26
-        tt = [0] * 26
-
-        for i in range(len(s)):
-            st[ord(s[i]) - ord('a')] += 1
-            tt[ord(t[i]) - ord('a')] += 1
-
-        if st == tt:
-            return True
-        return False
+        hamap = {}
+        for i in s:
+            if i not in hamap:
+                hamap[i] = 1
+            else:
+                hamap[i] = hamap[i] + 1
+        for j in t:
+            if j not in hamap:
+                return False
+            else:
+                if hamap[j] > 1:
+                    hamap[j] = hamap[j] - 1
+                else:
+                    del hamap[j]
+        if len(hamap) > 0:
+            return False
+        return True
