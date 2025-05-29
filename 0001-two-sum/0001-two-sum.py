@@ -1,10 +1,18 @@
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        list = {}
-        for i in range(0, len(nums)):
-            if target - nums[i] in list:
-                return [list[target-nums[i]], i]
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        storehash = {}
+        result = []
+        length = len(nums)
+        for i in range(0, length):
+            if target - nums[i] in storehash:
+                result.append(storehash[target-nums[i]])
+                result.append(i)
+                return result
             else:
-                list[nums[i]] = i
-        return []
-            
+                storehash[nums[i]] = i
+        return result
