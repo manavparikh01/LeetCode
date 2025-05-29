@@ -7,9 +7,9 @@ class Solution(object):
         uniquehash = {}
         values = []
         for i in strs:
-            ascilist = [0] * 128
+            ascilist = [0] * 26
             for characters in i:
-                ascilist[ord(characters)] = ascilist[ord(characters)] + 1
+                ascilist[ord(characters)-ord('a')] = ascilist[ord(characters)-ord('a')] + 1
             ascituple = tuple(ascilist)
             if ascituple not in uniquehash:
                 uniquehash[ascituple] = [i]
