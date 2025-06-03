@@ -4,6 +4,14 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        stext = ''.join(c for c in s if c.isalnum())
-        print(stext)
-        return stext.lower() == stext[::-1].lower()
+        s = lower(s)
+        sclean = re.sub(r'[^a-z0-9]', '', s)
+        l = 0
+        h = len(sclean) - 1
+        while h > l:
+            if sclean[l] != sclean[h]:
+                return False
+            else:
+                l += 1
+                h -= 1
+        return True
