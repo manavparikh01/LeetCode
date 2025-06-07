@@ -8,7 +8,6 @@ class Solution(object):
         high = len(height) - 1
         max_water = 0
         while low < high:
-            print(low, high)
             water = (high - low) * min(height[low], height[high])
             max_water = max(max_water, water)
             if height[low] <= height[high]:
