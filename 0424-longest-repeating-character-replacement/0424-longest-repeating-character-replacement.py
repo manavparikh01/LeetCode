@@ -8,10 +8,11 @@ class Solution(object):
         count = {}
         res = 0
         l = 0
+        maxf = 0
         for h in range(len(s)):
             count[s[h]] = count.get(s[h], 0) + 1
-
-            while (h - l + 1) - max(count.values()) > k:
+            maxf = max(maxf, count[s[h]])
+            while (h - l + 1) - maxf > k:
                 count[s[l]] -= 1
                 l += 1
             
