@@ -13,16 +13,24 @@ class Solution(object):
         :type q: TreeNode
         :rtype: TreeNode
         """
-        if root == None:
-            return None
-        def dfs(node):
-            if node == None:
-                return None
-            if node == p or node == q:
-                return node
-            left = dfs(node.left)
-            right = dfs(node.right)
-            if left and right:
-                return node
-            return left if left else right
-        return dfs(root)    
+        while root:
+            if root.val > p.val and root.val > q.val:
+                root = root.left
+            elif root.val < p.val and root.val < q.val:
+                root = root.right
+            else:
+                return root
+
+        # if root == None:
+        #     return None
+        # def dfs(node):
+        #     if node == None:
+        #         return None
+        #     if node == p or node == q:
+        #         return node
+        #     left = dfs(node.left)
+        #     right = dfs(node.right)
+        #     if left and right:
+        #         return node
+        #     return left if left else right
+        # return dfs(root)    
