@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/manavparikh01/LeetCode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0792-binary-search](https://github.com/manavparikh01/LeetCode/tree/master/0792-binary-search) |
+| [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
 ## Two Pointers
 |  |
 | ------- |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
