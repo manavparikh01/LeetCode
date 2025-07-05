@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/manavparikh01/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/manavparikh01/LeetCode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 ## String
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/manavparikh01/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/manavparikh01/LeetCode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/manavparikh01/LeetCode/tree/master/0206-reverse-linked-list) |
+| [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 ## Recursion
 |  |
 | ------- |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
