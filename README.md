@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manavparikh01/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/manavparikh01/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0049-group-anagrams](https://github.com/manavparikh01/LeetCode/tree/master/0049-group-anagrams) |
+| [0078-subsets](https://github.com/manavparikh01/LeetCode/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/manavparikh01/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/manavparikh01/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/manavparikh01/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -234,4 +235,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/manavparikh01/LeetCode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/manavparikh01/LeetCode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
