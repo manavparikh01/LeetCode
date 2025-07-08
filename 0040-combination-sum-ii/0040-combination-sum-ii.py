@@ -5,8 +5,6 @@ class Solution:
         candidates.sort()
         def dp(i, sum):
             if sum == target:
-                if temp in res:
-                    return
                 res.append(temp.copy())
                 return
             if i >= len(candidates) or sum > target:
