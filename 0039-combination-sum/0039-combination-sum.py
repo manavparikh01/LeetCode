@@ -1,22 +1,19 @@
-class Solution(object):
-    def combinationSum(self, candidates, target):
-        """
-        :type candidates: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
-        ans = []
-        ds = []
-        def findCombination(ind, target):
-            if ind == len(candidates):
-                if target == 0:
-                    ans.append(ds[:])
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        res = []
+        temp = []
+        def dp(i, sum):
+            if i >= len(candidates) or sum > target:
                 return
-            if candidates[ind] <= target:
-                ds.append(candidates[ind])
-                findCombination(ind, target - candidates[ind])
-                ds.pop()
-            findCombination(ind + 1, target)
-        findCombination(0, target)
-        return ans
+            if sum == target:
+                res.append(temp.copy())
+                return
+            sum += candidates[i]
+            temp.append(candidates[i])
+            dp(i, sum)
+            sum -= candidates[i]
+            temp.pop()
+            dp(i+1, sum)
+        dp(0, 0)
+        return res
         
