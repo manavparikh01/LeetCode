@@ -1,29 +1,23 @@
-class Solution(object):
-    def combinationSum2(self, candidates, target):
-        """
-        :type candidates: List[int]
-        :type target: int
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        res = []
+        temp = []
         candidates.sort()
-        # if sum(candidates) < target:
-        #     return []
-        slist = []
-        mlist = []
-        def dfs(ind, target):
-            if ind >= len(candidates) or target < 0:
-                if target == 0:
-                    if slist not in mlist:
-                        mlist.append(slist[:])
+        def dp(i, sum):
+            if sum == target:
+                if temp in res:
                     return
+                res.append(temp.copy())
                 return
-            # if candidates[ind] <= target:
-            slist.append(candidates[ind])
-            dfs(ind + 1, target - candidates[ind])
-            slist.pop()
-            while (ind + 1 < len(candidates) and candidates[ind] == candidates[ind+1]):
-                ind = ind + 1
-            dfs(ind + 1, target)
-            # dfs(ind + 1, target)
-        dfs(0, target)
-        return mlist
+            if i >= len(candidates) or sum > target:
+                return
+            sum += candidates[i]
+            temp.append(candidates[i])
+            dp(i + 1, sum)
+            sum -= candidates[i]
+            temp.pop()
+            while i + 1 < len(candidates) and candidates[i] == candidates[i+1]:
+                i += 1
+            dp(i + 1, sum)
+        dp(0, 0)
+        return res
