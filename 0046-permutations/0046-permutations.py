@@ -1,17 +1,17 @@
-class Solution(object):
-    def permute(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
-        def backtrack(nums, idx):
-            if idx == len(nums):
-                res.append(nums[:])
+        temp = []
+        def dp():
+            nonlocal res, temp
+            if len(temp) == len(nums):
+                res.append(temp.copy())
                 return
-            for i in range(idx, len(nums)):
-                nums[idx], nums[i] = nums[i], nums[idx]
-                backtrack(nums, idx + 1)
-                nums[idx], nums[i] = nums[i], nums[idx]
-        backtrack(nums, 0)
+            for ind in range(0, len(nums)):
+                if nums[ind] not in temp:
+                    temp.append(nums[ind])
+                    dp()
+                    temp.pop()
+            return
+        dp()
         return res
