@@ -18,8 +18,16 @@ class Solution:
         curr = TrieNode()
         temp = [[False for _ in range(len(board[0]))] for _ in range(len(board))]
 
+        def insertWord(root, word):
+            curr = root
+            for character in word:
+                if character not in curr.children:
+                    curr.children[character] = TrieNode()
+                curr = curr.children[character]
+            curr.isLastLetter = True
+
         for word in words:
-            curr.insertWord(word)
+            insertWord(curr, word)
         
         def dp(i, j, curr, templist):
             nonlocal res, temp
