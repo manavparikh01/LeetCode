@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/manavparikh01/LeetCode/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 | [0792-binary-search](https://github.com/manavparikh01/LeetCode/tree/master/0792-binary-search) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/manavparikh01/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/manavparikh01/LeetCode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 ## Greedy
 |  |
 | ------- |
@@ -197,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0572-subtree-of-another-tree](https://github.com/manavparikh01/LeetCode/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -205,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/manavparikh01/LeetCode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 ## Binary Tree
 |  |
 | ------- |
@@ -286,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/manavparikh01/LeetCode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/manavparikh01/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/manavparikh01/LeetCode/tree/master/0212-word-search-ii) |
+| [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 ## Trie
 |  |
 | ------- |
