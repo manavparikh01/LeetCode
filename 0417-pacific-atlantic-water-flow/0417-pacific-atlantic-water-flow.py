@@ -1,40 +1,55 @@
-class Solution(object):
-    def pacificAtlantic(self, heights):
-        """
-        :type heights: List[List[int]]
-        :rtype: List[List[int]]
-        """
-        ROWS, COLS = len(heights), len(heights[0])
-        pac, atl = set(), set()
-
-        def dfs(r, c, visit, prevHeight):
-            if (
-                (r, c) in visit
-                or r < 0
-                or c < 0
-                or r == ROWS
-                or c == COLS
-                or heights[r][c] < prevHeight
-            ):
-                return
-            visit.add((r, c))
-            dfs(r + 1, c, visit, heights[r][c])
-            dfs(r - 1, c, visit, heights[r][c])
-            dfs(r, c + 1, visit, heights[r][c])
-            dfs(r, c - 1, visit, heights[r][c])
-
-        for c in range(COLS):
-            dfs(0, c, pac, heights[0][c])
-            dfs(ROWS - 1, c, atl, heights[ROWS - 1][c])
-
-        for r in range(ROWS):
-            dfs(r, 0, pac, heights[r][0])
-            dfs(r, COLS - 1, atl, heights[r][COLS - 1])
-
+class Solution:
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         res = []
-        for r in range(ROWS):
-            for c in range(COLS):
-                if (r, c) in pac and (r, c) in atl:
-                    res.append([r, c])
-        return res
+        rows = len(heights)
+        cols = len(heights[0])
+        tempp = [[False for _ in range(cols)] for _ in range(rows)]
+        tempa = [[False for _ in range(cols)] for _ in range(rows)]
+        visitp = [[False for _ in range(cols)] for _ in range(rows)]
+        visita = [[False for _ in range(cols)] for _ in range(rows)]
+        for i in range(rows):
+            tempp[i][0] = True
+            tempa[i][cols - 1] = True
+        for j in range(cols):
+            tempp[0][j] = True
+            tempa[rows - 1][j] = True
+
+        def dpp(i, j, height):
+            nonlocal visitp
+            if i < 0 or i >= rows or j < 0 or j >= cols or visitp[i][j] == True or heights[i][j] < height:
+                return
+            tempp[i][j] = True
+            visitp[i][j] = True
+            # print(i, j, height)
+            dpp(i, j + 1, heights[i][j])
+            dpp(i + 1, j, heights[i][j])
+            dpp(i, j - 1, heights[i][j])
+            dpp(i - 1, j, heights[i][j])
+            return
         
+        def dpa(i, j, height):
+            nonlocal visita
+            if i < 0 or i >= rows or j < 0 or j >= cols or visita[i][j] == True or heights[i][j] < height:
+                return
+            tempa[i][j] = True
+            visita[i][j] = True
+            dpa(i, j + 1, heights[i][j])
+            dpa(i + 1, j, heights[i][j])
+            dpa(i, j - 1, heights[i][j])
+            dpa(i - 1, j, heights[i][j])
+            return
+        
+        for i in range(rows):
+            for j in range(cols):
+                # print(i, j, tempp[i][j])
+                if tempp[i][j] == True:
+                    dpp(i, j, heights[i][j])
+                if tempa[i][j] == True:
+                    dpa(i, j, heights[i][j])
+        
+        for i in range(rows):
+            for j in range(cols):
+                if tempp[i][j] and tempa[i][j]:
+                    res.append([i, j])
+
+        return res
