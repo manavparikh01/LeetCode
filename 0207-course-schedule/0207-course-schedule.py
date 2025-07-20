@@ -1,33 +1,31 @@
-class Solution(object):
-    def canFinish(self, numCourses, prerequisites):
-        """
-        :type numCourses: int
-        :type prerequisites: List[List[int]]
-        :rtype: bool
-        """
-        preMap = {i: [] for i in range(numCourses)}
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        hashmap = {}
+        isPossible = set()
+        notPossible = set()
+        visited = set()
+        for depends in prerequisites:
+            if depends[0] in hashmap:
+                hashmap[depends[0]].append(depends[1])
+            else:
+                hashmap[depends[0]] = [depends[1]]
 
-        # map each course to : prereq list
-        for crs, pre in prerequisites:
-            preMap[crs].append(pre)
-
-        visiting = set()
-
-        def dfs(crs):
-            if crs in visiting:
-                return False
-            if preMap[crs] == []:
+        def ifPossible(i):
+            if i not in hashmap or i in isPossible:
                 return True
-
-            visiting.add(crs)
-            for pre in preMap[crs]:
-                if not dfs(pre):
-                    return False
-            visiting.remove(crs)
-            preMap[crs] = []
-            return True
-
-        for c in range(numCourses):
-            if not dfs(c):
+            if i in notPossible or i in visited:
                 return False
+            visited.add(i)
+            for idx in hashmap[i]:
+                if ifPossible(idx) == False:
+                    notPossible.add(i)
+                    return False
+            visited.remove(i)
+            isPossible.add(i)
+            return True
+        
+        for i in range(numCourses):
+            if ifPossible(i) == False:
+                return False
+        
         return True
