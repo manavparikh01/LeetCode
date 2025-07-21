@@ -7,10 +7,8 @@ class Solution:
         res = []
 
         for depends in prerequisites:
-            if depends[0] in hashmap:
-                hashmap[depends[0]].append(depends[1])
-            else:
-                hashmap[depends[0]] = [depends[1]]
+            hashmap[depends[0]].append(depends[1])
+
     
         
         def ifPossible(i):
