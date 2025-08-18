@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/manavparikh01/LeetCode/tree/master/0322-coin-change) |
 | [0392-is-subsequence](https://github.com/manavparikh01/LeetCode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/manavparikh01/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/manavparikh01/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Hash Table
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/manavparikh01/LeetCode/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/manavparikh01/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 ## Sorting
 |  |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/manavparikh01/LeetCode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/manavparikh01/LeetCode/tree/master/0134-gas-station) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/manavparikh01/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -217,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/manavparikh01/LeetCode/tree/master/0143-reorder-list) |
+| [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/manavparikh01/LeetCode/tree/master/0739-daily-temperatures) |
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 ## Binary Search
