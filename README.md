@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/manavparikh01/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0392-is-subsequence](https://github.com/manavparikh01/LeetCode/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/manavparikh01/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
+| [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 ## String
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/manavparikh01/LeetCode/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/manavparikh01/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 ## Sorting
 |  |
 | ------- |
@@ -206,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/manavparikh01/LeetCode/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/manavparikh01/LeetCode/tree/master/0134-gas-station) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
+| [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/manavparikh01/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Stack
