@@ -1,21 +1,17 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        l = len(intervals)
-        def sort_by_first(sublist):
-            return sublist[0]
-
-        pintervals = sorted(intervals, key=sort_by_first)
-        ans = []
+        sortedIntervals = sorted(intervals, key=lambda x:x[0])
         i = 0
-        while i < l-1:
-            pre = []
-            pre.append(pintervals[i][0])
-            pre.append(pintervals[i][1])
-            while i < l-1 and pre[1] >= pintervals[i+1][0]:
-                pre[1] = max(pintervals[i+1][1], pre[1])
+        res = []
+        while i < len(sortedIntervals) - 1:
+            curr = i
+            secondpart = sortedIntervals[curr][1]
+            while i < len(sortedIntervals) - 1 and sortedIntervals[i+1][0] <= secondpart:
                 i += 1
-            ans.append(pre)
+                secondpart = max(secondpart, sortedIntervals[i][1])
+            res.append([sortedIntervals[curr][0], secondpart])
             i += 1
-        if i == l - 1:
-            ans.append(pintervals[i])
-        return ans
+        print(i)
+        if i == len(sortedIntervals) - 1:
+            res.append(sortedIntervals[i])
+        return res
