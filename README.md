@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/manavparikh01/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/manavparikh01/LeetCode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/manavparikh01/LeetCode/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/manavparikh01/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/manavparikh01/LeetCode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/manavparikh01/LeetCode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/manavparikh01/LeetCode/tree/master/0053-maximum-subarray) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/manavparikh01/LeetCode/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/manavparikh01/LeetCode/tree/master/0070-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
@@ -394,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/manavparikh01/LeetCode/tree/master/0048-rotate-image) |
 | [0079-word-search](https://github.com/manavparikh01/LeetCode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/manavparikh01/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/manavparikh01/LeetCode/tree/master/0200-number-of-islands) |
