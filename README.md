@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/manavparikh01/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/manavparikh01/LeetCode/tree/master/0057-insert-interval) |
+| [0066-plus-one](https://github.com/manavparikh01/LeetCode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/manavparikh01/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/manavparikh01/LeetCode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/manavparikh01/LeetCode/tree/master/0079-word-search) |
@@ -374,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/manavparikh01/LeetCode/tree/master/0048-rotate-image) |
+| [0066-plus-one](https://github.com/manavparikh01/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/manavparikh01/LeetCode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/manavparikh01/LeetCode/tree/master/0202-happy-number) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
