@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/manavparikh01/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/manavparikh01/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0020-valid-parentheses) |
+| [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/manavparikh01/LeetCode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/manavparikh01/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/manavparikh01/LeetCode/tree/master/0079-word-search) |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/manavparikh01/LeetCode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/manavparikh01/LeetCode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/manavparikh01/LeetCode/tree/master/0066-plus-one) |
@@ -477,5 +479,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/manavparikh01/LeetCode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
