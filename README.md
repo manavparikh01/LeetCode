@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/manavparikh01/LeetCode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/manavparikh01/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0191-number-of-1-bits](https://github.com/manavparikh01/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/manavparikh01/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/manavparikh01/LeetCode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/manavparikh01/LeetCode/tree/master/0136-single-number) |
+| [0191-number-of-1-bits](https://github.com/manavparikh01/LeetCode/tree/master/0191-number-of-1-bits) |
 ## Matrix
 |  |
 | ------- |
