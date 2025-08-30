@@ -3,9 +3,9 @@ class Solution:
         array = [0] * (n+1)
         for i in range(n + 1):
             res = 0
-            if i == 0:
-                array[i] = 0
-                continue
+            # if i == 0:
+            #     array[i] = 0
+            #     continue
             itemp = i
             while itemp:
                 itemp &= (itemp - 1)
