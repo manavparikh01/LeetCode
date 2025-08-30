@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/manavparikh01/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/manavparikh01/LeetCode/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/manavparikh01/LeetCode/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/manavparikh01/LeetCode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/manavparikh01/LeetCode/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/manavparikh01/LeetCode/tree/master/0647-palindromic-substrings) |
@@ -413,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/manavparikh01/LeetCode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/manavparikh01/LeetCode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/manavparikh01/LeetCode/tree/master/0191-number-of-1-bits) |
+| [0338-counting-bits](https://github.com/manavparikh01/LeetCode/tree/master/0338-counting-bits) |
 ## Matrix
 |  |
 | ------- |
