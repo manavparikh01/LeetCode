@@ -1,8 +1,6 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        hashmap = defaultdict(int)
-        for i in nums:
-            hashmap[i] += 1
-        for key, val in hashmap.items():
-            if val == 1:
-                return key
+        res = 0
+        for n in nums:
+            res = n ^ res
+        return res
