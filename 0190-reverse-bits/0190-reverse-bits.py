@@ -1,5 +1,7 @@
 class Solution:
     def reverseBits(self, n: int) -> int:
-        bina = format(n, "032b")
-        binarev = bina[::-1]
-        return int(binarev, 2)
+        res = 0
+        for i in range(32):
+            bit = (n >> i) & 1
+            res = res | (bit << (31 - i))
+        return res
