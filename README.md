@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/manavparikh01/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2139-detect-squares](https://github.com/manavparikh01/LeetCode/tree/master/2139-detect-squares) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Two Pointers
 |  |
 | ------- |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2139-detect-squares](https://github.com/manavparikh01/LeetCode/tree/master/2139-detect-squares) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## String
 |  |
 | ------- |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/manavparikh01/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -198,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/manavparikh01/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -243,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/manavparikh01/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Stack
 |  |
 | ------- |
@@ -502,4 +507,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/manavparikh01/LeetCode/tree/master/0054-spiral-matrix) |
+| [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 <!---LeetCode Topics End-->
