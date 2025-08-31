@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/manavparikh01/LeetCode/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/manavparikh01/LeetCode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/manavparikh01/LeetCode/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/manavparikh01/LeetCode/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/manavparikh01/LeetCode/tree/master/0392-is-subsequence) |
+| [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0647-palindromic-substrings](https://github.com/manavparikh01/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/manavparikh01/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/manavparikh01/LeetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/manavparikh01/LeetCode/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/manavparikh01/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -312,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0332-reconstruct-itinerary](https://github.com/manavparikh01/LeetCode/tree/master/0332-reconstruct-itinerary) |
+| [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/manavparikh01/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/manavparikh01/LeetCode/tree/master/0684-redundant-connection) |
@@ -332,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/manavparikh01/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/manavparikh01/LeetCode/tree/master/0322-coin-change) |
+| [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/manavparikh01/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
@@ -466,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/manavparikh01/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/manavparikh01/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0332-reconstruct-itinerary](https://github.com/manavparikh01/LeetCode/tree/master/0332-reconstruct-itinerary) |
+| [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/manavparikh01/LeetCode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/manavparikh01/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -488,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0744-network-delay-time](https://github.com/manavparikh01/LeetCode/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Eulerian Circuit
