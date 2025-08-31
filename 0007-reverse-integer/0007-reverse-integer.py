@@ -1,12 +1,15 @@
 class Solution:
     def reverse(self, x: int) -> int:
-        y = abs(x)
-        rev = 0
-        while y > 0:
-            rev = rev * 10 + y % 10
-            y //= 10
-        if rev > (2 ** 31):
-            return 0
-        if x < 0:
-            return -rev
-        return rev
+        MAX = (2**31) - 1
+        MIN = (-2**31)
+        res = 0
+        while x:
+            digit = int(math.fmod(x, 10))
+            x = int(x / 10)
+            if (res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10)):
+                return 0
+            if (res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10)):
+                return 0
+            res = res * 10 + digit
+        return res
+
