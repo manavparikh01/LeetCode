@@ -270,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0020-valid-parentheses) |
 | [0143-reorder-list](https://github.com/manavparikh01/LeetCode/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/manavparikh01/LeetCode/tree/master/0155-min-stack) |
 | [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/manavparikh01/LeetCode/tree/master/0739-daily-temperatures) |
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/manavparikh01/LeetCode/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/manavparikh01/LeetCode/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/manavparikh01/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/manavparikh01/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/manavparikh01/LeetCode/tree/master/0295-find-median-from-data-stream) |
