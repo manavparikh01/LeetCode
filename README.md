@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
+| [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/manavparikh01/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
+| [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
 ## Sorting
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/manavparikh01/LeetCode/tree/master/0744-network-delay-time) |
+| [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -220,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [2139-detect-squares](https://github.com/manavparikh01/LeetCode/tree/master/2139-detect-squares) |
 ## Quickselect
@@ -256,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
+| [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/manavparikh01/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
