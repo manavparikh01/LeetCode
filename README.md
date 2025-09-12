@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
 | [1706-min-cost-to-connect-all-points](https://github.com/manavparikh01/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1829-maximum-units-on-a-truck](https://github.com/manavparikh01/LeetCode/tree/master/1829-maximum-units-on-a-truck) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/manavparikh01/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/manavparikh01/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
+| [1829-maximum-units-on-a-truck](https://github.com/manavparikh01/LeetCode/tree/master/1829-maximum-units-on-a-truck) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/manavparikh01/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Divide and Conquer
@@ -272,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
+| [1829-maximum-units-on-a-truck](https://github.com/manavparikh01/LeetCode/tree/master/1829-maximum-units-on-a-truck) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/manavparikh01/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Stack
