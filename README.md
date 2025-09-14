@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
+| [1708-design-parking-system](https://github.com/manavparikh01/LeetCode/tree/master/1708-design-parking-system) |
 | [2139-detect-squares](https://github.com/manavparikh01/LeetCode/tree/master/2139-detect-squares) |
 ## Quickselect
 |  |
@@ -431,6 +432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/manavparikh01/LeetCode/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1708-design-parking-system](https://github.com/manavparikh01/LeetCode/tree/master/1708-design-parking-system) |
 | [2139-detect-squares](https://github.com/manavparikh01/LeetCode/tree/master/2139-detect-squares) |
 ## Data Stream
 |  |
@@ -561,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/manavparikh01/LeetCode/tree/master/0054-spiral-matrix) |
+| [1708-design-parking-system](https://github.com/manavparikh01/LeetCode/tree/master/1708-design-parking-system) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/manavparikh01/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
 ## Biconnected Component
