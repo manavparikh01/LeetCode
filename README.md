@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/manavparikh01/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/manavparikh01/LeetCode/tree/master/2325-number-of-ways-to-select-buildings) |
 ## Hash Table
 |  |
 | ------- |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/manavparikh01/LeetCode/tree/master/2325-number-of-ways-to-select-buildings) |
 ## Sorting
 |  |
 | ------- |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/manavparikh01/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
+| [2325-number-of-ways-to-select-buildings](https://github.com/manavparikh01/LeetCode/tree/master/2325-number-of-ways-to-select-buildings) |
 ## Union Find
 |  |
 | ------- |
