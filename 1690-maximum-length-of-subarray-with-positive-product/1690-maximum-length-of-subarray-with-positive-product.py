@@ -18,6 +18,5 @@ class Solution:
             else:
                 poslen = 0
                 neglen = 0
-            print(poslen, neglen)
             res = max(res, poslen)
         return res
