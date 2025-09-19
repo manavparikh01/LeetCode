@@ -621,4 +621,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/manavparikh01/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+## Enumeration
+|  |
+| ------- |
+| [1212-sequential-digits](https://github.com/manavparikh01/LeetCode/tree/master/1212-sequential-digits) |
 <!---LeetCode Topics End-->
