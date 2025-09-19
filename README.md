@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
+| [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/manavparikh01/LeetCode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2139-detect-squares](https://github.com/manavparikh01/LeetCode/tree/master/2139-detect-squares) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
@@ -474,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/manavparikh01/LeetCode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/manavparikh01/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/manavparikh01/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/manavparikh01/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 ## Geometry
@@ -504,6 +507,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/manavparikh01/LeetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/manavparikh01/LeetCode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/manavparikh01/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 ## Matrix
 |  |
 | ------- |
