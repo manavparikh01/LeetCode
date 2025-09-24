@@ -325,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/manavparikh01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/manavparikh01/LeetCode/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/manavparikh01/LeetCode/tree/master/0155-min-stack) |
+| [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/manavparikh01/LeetCode/tree/master/0739-daily-temperatures) |
 | [0943-sum-of-subarray-minimums](https://github.com/manavparikh01/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
@@ -377,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0572-subtree-of-another-tree](https://github.com/manavparikh01/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -398,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/manavparikh01/LeetCode/tree/master/0332-reconstruct-itinerary) |
+| [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/manavparikh01/LeetCode/tree/master/0572-subtree-of-another-tree) |
@@ -482,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/manavparikh01/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/manavparikh01/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/manavparikh01/LeetCode/tree/master/0295-find-median-from-data-stream) |
+| [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -569,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/manavparikh01/LeetCode/tree/master/0239-sliding-window-maximum) |
+| [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0387-first-unique-character-in-a-string](https://github.com/manavparikh01/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 ## Monotonic Queue
 |  |
@@ -654,4 +659,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Iterator
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
