@@ -3,7 +3,6 @@ class Solution:
         ROW = len(grid)
         COL = len(grid[0])
         temp = [[0 for i in range(COL)] for _ in range(ROW)]
-        print(temp)
         for i in range(ROW):
             for j in range(COL):
                 if i == 0 and j == 0:
