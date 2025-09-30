@@ -19,11 +19,6 @@ class Solution:
         while True:
             if 10**7 < n < 10**8:
                 n = 10**8
-            s = len(str(n))
-            if s % 2 == 0:
-                n = 10 ** s
-                continue
-            if self.isPrime(n) and self.isPalindrome(n):
+            if self.isPalindrome(n) and self.isPrime(n):
                 return n
-            else:
-                n += 1
+            n += 1
