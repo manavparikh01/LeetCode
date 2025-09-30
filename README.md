@@ -528,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/manavparikh01/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/manavparikh01/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0897-prime-palindrome](https://github.com/manavparikh01/LeetCode/tree/master/0897-prime-palindrome) |
 | [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/manavparikh01/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -684,4 +685,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
+## Number Theory
+|  |
+| ------- |
+| [0897-prime-palindrome](https://github.com/manavparikh01/LeetCode/tree/master/0897-prime-palindrome) |
 <!---LeetCode Topics End-->
