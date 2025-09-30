@@ -4,9 +4,9 @@ class Solution:
         res = 0
         while i*i <= n:
             if n % i == 0:
-                res += 1
+                return False
             i += 1
-        return True if res == 1 else False
+        return True
     
     def isPalindrome(self, n: int) -> bool:
         string = str(n)
@@ -20,20 +20,16 @@ class Solution:
         return True
 
     def primePalindrome(self, n: int) -> int:
-        def is_palindrome(x):
-            return str(x) == str(x)[::-1]
-        
-        def is_prime(x):
-            if x < 2:
-                return False
-            for i in range(2, int(x ** 0.5) + 1):
-                if x % i == 0:
-                    return False
-            return True
-        
+        if n < 2:
+            return 2
+        if 8 <= n <= 11:
+            return 11
         while True:
-            if is_palindrome(n) and is_prime(n):
+            s = len(str(n))
+            if s % 2 == 0:
+                n = 10 ** s
+                continue
+            if self.isPrime(n) and self.isPalindrome(n):
                 return n
-            n += 1
-            if 10**7 < n < 10**8:
-                n = 10**8
+            else:
+                n += 1
