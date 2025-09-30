@@ -9,15 +9,7 @@ class Solution:
         return True
     
     def isPalindrome(self, n: int) -> bool:
-        string = str(n)
-        l = 0
-        r = len(string) - 1
-        while l < r:
-            if string[l] != string[r]:
-                return False
-            l += 1
-            r -= 1
-        return True
+        return str(n) == str(n)[::-1]
 
     def primePalindrome(self, n: int) -> int:
         if n < 2:
@@ -25,6 +17,8 @@ class Solution:
         if 8 <= n <= 11:
             return 11
         while True:
+            if 10**7 < n < 10**8:
+                n = 10**8
             s = len(str(n))
             if s % 2 == 0:
                 n = 10 ** s
