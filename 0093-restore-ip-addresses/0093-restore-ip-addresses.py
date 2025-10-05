@@ -13,7 +13,6 @@ class Solution:
                 return
             if i >= len(s):
                 return
-            
             ip = s[i]
             temp.append(ip)
             dfs(i + 1, s)
