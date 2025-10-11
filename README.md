@@ -342,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/manavparikh01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/manavparikh01/LeetCode/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/manavparikh01/LeetCode/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/manavparikh01/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manavparikh01/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/manavparikh01/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/manavparikh01/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/manavparikh01/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0173-binary-search-tree-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0226-invert-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -487,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/manavparikh01/LeetCode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/manavparikh01/LeetCode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/manavparikh01/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0173-binary-search-tree-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0226-invert-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -518,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/manavparikh01/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
@@ -527,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/manavparikh01/LeetCode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/manavparikh01/LeetCode/tree/master/0155-min-stack) |
+| [0173-binary-search-tree-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/manavparikh01/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/manavparikh01/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/manavparikh01/LeetCode/tree/master/0295-find-median-from-data-stream) |
@@ -719,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Iterator
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 ## Number Theory
 |  |
