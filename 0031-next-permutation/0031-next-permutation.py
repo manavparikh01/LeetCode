@@ -3,23 +3,26 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        n = len(nums)
-        
-        ind = -1
-        for i in range(n-2, -1, -1):
+        # Find the break point which breaks the upward curve from last index
+        length = len(nums)
+        brp = -1
+        for i in range(length - 2, -1, -1):
             if nums[i] < nums[i + 1]:
-                ind = i
+                brp = i
                 break
         
-        if ind == -1:
+        # if break point still -1, return reverse
+        if brp == -1:
             nums.reverse()
-            return A
+            return nums
         
-        for i in range(n - 1, ind, -1):
-            if nums[i] > nums[ind]:
-                nums[i], nums[ind] = nums[ind], nums[i]
+        # traverse again from last index to find the element larger than the break point
+        for i in range(length - 1, brp, -1):
+            if nums[i] > nums[brp]:
+                nums[brp], nums[i] = nums[i], nums[brp]
                 break
-                
-        nums[ind+1:] = reversed(nums[ind+1:])
         
-        
+        # reverse the array from the break point + 1 index to last index
+        nums[brp + 1:] = reversed(nums[brp + 1:])
+        return nums
+            
