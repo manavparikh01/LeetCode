@@ -1,19 +1,46 @@
+class ListNode:
+
+    def __init__(self, key= -1, val= -1, next= None):
+        self.key = key
+        self.val = val
+        self.next = next
+
 class MyHashMap:
 
     def __init__(self):
-        self.dictionary = {}
+        self.arr = [ListNode() for i in range(1000)]
+
+    def hash(self, key):
+        return key%len(self.arr)
 
     def put(self, key: int, value: int) -> None:
-        self.dictionary[key] = value
+        ind = self.hash(key)
+        curr = self.arr[ind]
+        while curr.next:
+            if curr.next.key == key:
+                curr.next.val = value
+                return
+            curr = curr.next
+        curr.next = ListNode(key, val = value)
 
     def get(self, key: int) -> int:
-        if key in self.dictionary:
-            return self.dictionary[key]
+        ind = self.hash(key)
+        curr = self.arr[ind].next
+        while curr:
+            if curr.key == key:
+                return curr.val
+            curr = curr.next
         return -1
 
     def remove(self, key: int) -> None:
-        if key in self.dictionary:
-            del self.dictionary[key]
+        ind = self.hash(key)
+        curr = self.arr[ind]
+        while curr and curr.next:
+            if curr.next.key == key:
+                curr.next = curr.next.next
+                return
+            curr = curr.next
+        
 
 
 # Your MyHashMap object will be instantiated and called as such:
