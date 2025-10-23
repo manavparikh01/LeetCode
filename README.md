@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
+| [0682-baseball-game](https://github.com/manavparikh01/LeetCode/tree/master/0682-baseball-game) |
 | [0692-top-k-frequent-words](https://github.com/manavparikh01/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manavparikh01/LeetCode/tree/master/0733-flood-fill) |
@@ -363,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0394-decode-string](https://github.com/manavparikh01/LeetCode/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/manavparikh01/LeetCode/tree/master/0445-add-two-numbers-ii) |
 | [0678-valid-parenthesis-string](https://github.com/manavparikh01/LeetCode/tree/master/0678-valid-parenthesis-string) |
+| [0682-baseball-game](https://github.com/manavparikh01/LeetCode/tree/master/0682-baseball-game) |
 | [0739-daily-temperatures](https://github.com/manavparikh01/LeetCode/tree/master/0739-daily-temperatures) |
 | [0943-sum-of-subarray-minimums](https://github.com/manavparikh01/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
@@ -730,6 +732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/manavparikh01/LeetCode/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/manavparikh01/LeetCode/tree/master/0289-game-of-life) |
+| [0682-baseball-game](https://github.com/manavparikh01/LeetCode/tree/master/0682-baseball-game) |
 | [1708-design-parking-system](https://github.com/manavparikh01/LeetCode/tree/master/1708-design-parking-system) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/manavparikh01/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2436-make-array-zero-by-subtracting-equal-amounts](https://github.com/manavparikh01/LeetCode/tree/master/2436-make-array-zero-by-subtracting-equal-amounts) |
