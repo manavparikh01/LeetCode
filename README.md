@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/manavparikh01/LeetCode/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/manavparikh01/LeetCode/tree/master/0139-word-break) |
 | [0149-max-points-on-a-line](https://github.com/manavparikh01/LeetCode/tree/master/0149-max-points-on-a-line) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/manavparikh01/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/manavparikh01/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/manavparikh01/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0198-house-robber](https://github.com/manavparikh01/LeetCode/tree/master/0198-house-robber) |
@@ -356,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/manavparikh01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/manavparikh01/LeetCode/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/manavparikh01/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/manavparikh01/LeetCode/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/manavparikh01/LeetCode/tree/master/0224-basic-calculator) |
@@ -595,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/manavparikh01/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/manavparikh01/LeetCode/tree/master/0070-climbing-stairs) |
 | [0149-max-points-on-a-line](https://github.com/manavparikh01/LeetCode/tree/master/0149-max-points-on-a-line) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/manavparikh01/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/manavparikh01/LeetCode/tree/master/0202-happy-number) |
 | [0224-basic-calculator](https://github.com/manavparikh01/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manavparikh01/LeetCode/tree/master/0227-basic-calculator-ii) |
