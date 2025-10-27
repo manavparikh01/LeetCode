@@ -6,12 +6,12 @@
 #         self.right = right
 class Solution:
     def findTarget(self, root: Optional[TreeNode], k: int) -> bool:
-        order = []
+        order = set()
         def dp(node):
             if node == None:
                 return False
             if k - node.val in order:
                 return True
-            order.append(node.val)
+            order.add(node.val)
             return dp(node.left) or dp(node.right)
         return dp(root)
