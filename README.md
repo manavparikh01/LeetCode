@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0529-minesweeper](https://github.com/manavparikh01/LeetCode/tree/master/0529-minesweeper) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0682-baseball-game](https://github.com/manavparikh01/LeetCode/tree/master/0682-baseball-game) |
 | [0692-top-k-frequent-words](https://github.com/manavparikh01/LeetCode/tree/master/0692-top-k-frequent-words) |
@@ -480,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0449-serialize-and-deserialize-bst](https://github.com/manavparikh01/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0529-minesweeper](https://github.com/manavparikh01/LeetCode/tree/master/0529-minesweeper) |
 | [0543-diameter-of-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/manavparikh01/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -513,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0449-serialize-and-deserialize-bst](https://github.com/manavparikh01/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0529-minesweeper](https://github.com/manavparikh01/LeetCode/tree/master/0529-minesweeper) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0684-redundant-connection](https://github.com/manavparikh01/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
@@ -681,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/manavparikh01/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0289-game-of-life](https://github.com/manavparikh01/LeetCode/tree/master/0289-game-of-life) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0529-minesweeper](https://github.com/manavparikh01/LeetCode/tree/master/0529-minesweeper) |
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manavparikh01/LeetCode/tree/master/0733-flood-fill) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
