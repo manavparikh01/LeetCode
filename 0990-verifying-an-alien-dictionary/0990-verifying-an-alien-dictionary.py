@@ -9,7 +9,6 @@ class Solution:
                 if j == len(w2):
                     return False
                 if w2[j] != w1[j]:
-                    print(w1[j], w2[j], ordi[w1[j]], ordi[w2[j]])
                     if ordi[w1[j]] > ordi[w2[j]]:
                         return False
                     break
