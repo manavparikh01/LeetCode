@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0503-next-greater-element-ii](https://github.com/manavparikh01/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0529-minesweeper](https://github.com/manavparikh01/LeetCode/tree/master/0529-minesweeper) |
+| [0560-subarray-sum-equals-k](https://github.com/manavparikh01/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0682-baseball-game](https://github.com/manavparikh01/LeetCode/tree/master/0682-baseball-game) |
 | [0692-top-k-frequent-words](https://github.com/manavparikh01/LeetCode/tree/master/0692-top-k-frequent-words) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manavparikh01/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0535-encode-and-decode-tinyurl](https://github.com/manavparikh01/LeetCode/tree/master/0535-encode-and-decode-tinyurl) |
+| [0560-subarray-sum-equals-k](https://github.com/manavparikh01/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0692-top-k-frequent-words](https://github.com/manavparikh01/LeetCode/tree/master/0692-top-k-frequent-words) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/manavparikh01/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0560-subarray-sum-equals-k](https://github.com/manavparikh01/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
 | [2165-plates-between-candles](https://github.com/manavparikh01/LeetCode/tree/master/2165-plates-between-candles) |
