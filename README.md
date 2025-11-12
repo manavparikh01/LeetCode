@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0022-generate-parentheses) |
 | [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/manavparikh01/LeetCode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/manavparikh01/LeetCode/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/manavparikh01/LeetCode/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/manavparikh01/LeetCode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/manavparikh01/LeetCode/tree/master/0076-minimum-window-substring) |
@@ -638,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/manavparikh01/LeetCode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/manavparikh01/LeetCode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/manavparikh01/LeetCode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/manavparikh01/LeetCode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/manavparikh01/LeetCode/tree/master/0070-climbing-stairs) |
 | [0096-unique-binary-search-trees](https://github.com/manavparikh01/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0149-max-points-on-a-line](https://github.com/manavparikh01/LeetCode/tree/master/0149-max-points-on-a-line) |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/manavparikh01/LeetCode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/manavparikh01/LeetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/manavparikh01/LeetCode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/manavparikh01/LeetCode/tree/master/0136-single-number) |
@@ -787,6 +790,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
 | [0054-spiral-matrix](https://github.com/manavparikh01/LeetCode/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/manavparikh01/LeetCode/tree/master/0059-spiral-matrix-ii) |
+| [0067-add-binary](https://github.com/manavparikh01/LeetCode/tree/master/0067-add-binary) |
 | [0289-game-of-life](https://github.com/manavparikh01/LeetCode/tree/master/0289-game-of-life) |
 | [0640-solve-the-equation](https://github.com/manavparikh01/LeetCode/tree/master/0640-solve-the-equation) |
 | [0682-baseball-game](https://github.com/manavparikh01/LeetCode/tree/master/0682-baseball-game) |
