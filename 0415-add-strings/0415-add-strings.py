@@ -7,7 +7,6 @@ class Solution:
         while i >= 0 or j >= 0 or carry > 0:
             numa = int(num1[i]) if i >= 0 else 0
             numb = int(num2[j]) if j >= 0 else 0
-            print(numa, numb, carry)
             total = numa + numb + carry
             digit = total % 10
             carry = total // 10
