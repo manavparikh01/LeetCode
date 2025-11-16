@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/manavparikh01/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/manavparikh01/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/manavparikh01/LeetCode/tree/master/0242-valid-anagram) |
+| [0257-binary-tree-paths](https://github.com/manavparikh01/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0273-integer-to-english-words](https://github.com/manavparikh01/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0301-remove-invalid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0301-remove-invalid-parentheses) |
@@ -476,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/manavparikh01/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0449-serialize-and-deserialize-bst](https://github.com/manavparikh01/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
@@ -506,6 +508,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/manavparikh01/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0332-reconstruct-itinerary](https://github.com/manavparikh01/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0341-flatten-nested-list-iterator](https://github.com/manavparikh01/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
@@ -580,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/manavparikh01/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0257-binary-tree-paths](https://github.com/manavparikh01/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/manavparikh01/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0543-diameter-of-binary-tree) |
@@ -694,6 +698,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0093-restore-ip-addresses](https://github.com/manavparikh01/LeetCode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/manavparikh01/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/manavparikh01/LeetCode/tree/master/0212-word-search-ii) |
+| [0257-binary-tree-paths](https://github.com/manavparikh01/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0301-remove-invalid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 ## Bit Manipulation
 |  |
