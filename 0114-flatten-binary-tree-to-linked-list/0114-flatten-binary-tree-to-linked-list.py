@@ -9,21 +9,45 @@ class Solution:
         """
         Do not return anything, modify root in-place instead.
         """
-        res = []
+        # res = []
         def pre(node):
+            nonlocal prev
             if node is None:
                 return
-            res.append(node)
-            pre(node.left)
-            pre(node.right)
-            return
-        pre(root)
-        prev = TreeNode(-101)
-        for node in res:
+            # res.append(node)
+            left = node.left
+            right = node.right
+
             prev.right = node
-            node.left = None
             prev = node
+            node.left = None
+
+            pre(left)
+            pre(right)
+            return
+        prev = TreeNode(-101)
+        pre(root)
+        
+        # for node in res:
+        #     prev.right = node
+        #     node.left = None
+        #     prev = node
         return root
+        # res = []
+        # def pre(node):
+        #     if node is None:
+        #         return
+        #     res.append(node)
+        #     pre(node.left)
+        #     pre(node.right)
+        #     return
+        # pre(root)
+        # prev = TreeNode(-101)
+        # for node in res:
+        #     prev.right = node
+        #     node.left = None
+        #     prev = node
+        # return root
 
 
             
