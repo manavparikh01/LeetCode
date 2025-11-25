@@ -382,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/manavparikh01/LeetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
+| [0785-is-graph-bipartite](https://github.com/manavparikh01/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1706-min-cost-to-connect-all-points](https://github.com/manavparikh01/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
 ## Greedy
@@ -545,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manavparikh01/LeetCode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/manavparikh01/LeetCode/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/manavparikh01/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -579,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manavparikh01/LeetCode/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/manavparikh01/LeetCode/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/manavparikh01/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -793,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/manavparikh01/LeetCode/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/manavparikh01/LeetCode/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/manavparikh01/LeetCode/tree/master/0785-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1300-critical-connections-in-a-network](https://github.com/manavparikh01/LeetCode/tree/master/1300-critical-connections-in-a-network) |
 | [1706-min-cost-to-connect-all-points](https://github.com/manavparikh01/LeetCode/tree/master/1706-min-cost-to-connect-all-points) |
