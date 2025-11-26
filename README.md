@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0943-sum-of-subarray-minimums](https://github.com/manavparikh01/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/manavparikh01/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
+| [0986-interval-list-intersections](https://github.com/manavparikh01/LeetCode/tree/master/0986-interval-list-intersections) |
 | [0990-verifying-an-alien-dictionary](https://github.com/manavparikh01/LeetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/manavparikh01/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0680-valid-palindrome-ii](https://github.com/manavparikh01/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
+| [0986-interval-list-intersections](https://github.com/manavparikh01/LeetCode/tree/master/0986-interval-list-intersections) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -836,6 +838,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Line Sweep
 |  |
 | ------- |
+| [0986-interval-list-intersections](https://github.com/manavparikh01/LeetCode/tree/master/0986-interval-list-intersections) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/manavparikh01/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Simulation
 |  |
