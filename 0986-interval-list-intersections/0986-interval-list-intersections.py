@@ -8,7 +8,6 @@ class Solution:
         while m < l1 and n < l2:
             l11, l12 = firstList[m][0], firstList[m][1]
             l21, l22 = secondList[n][0], secondList[n][1]
-            # print(l11, l12, l21, l22)
             if l12 < l21:
                 m += 1
             elif l22 < l11:
