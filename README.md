@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/manavparikh01/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
+| [0398-random-pick-index](https://github.com/manavparikh01/LeetCode/tree/master/0398-random-pick-index) |
 | [0424-longest-repeating-character-replacement](https://github.com/manavparikh01/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/manavparikh01/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0523-continuous-subarray-sum](https://github.com/manavparikh01/LeetCode/tree/master/0523-continuous-subarray-sum) |
@@ -702,6 +703,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/manavparikh01/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0384-shuffle-an-array) |
+| [0398-random-pick-index](https://github.com/manavparikh01/LeetCode/tree/master/0398-random-pick-index) |
 | [0415-add-strings](https://github.com/manavparikh01/LeetCode/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/manavparikh01/LeetCode/tree/master/0445-add-two-numbers-ii) |
 | [0523-continuous-subarray-sum](https://github.com/manavparikh01/LeetCode/tree/master/0523-continuous-subarray-sum) |
@@ -882,6 +884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0384-shuffle-an-array) |
+| [0398-random-pick-index](https://github.com/manavparikh01/LeetCode/tree/master/0398-random-pick-index) |
 ## Iterator
 |  |
 | ------- |
@@ -895,4 +898,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/manavparikh01/LeetCode/tree/master/0278-first-bad-version) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0398-random-pick-index](https://github.com/manavparikh01/LeetCode/tree/master/0398-random-pick-index) |
 <!---LeetCode Topics End-->
