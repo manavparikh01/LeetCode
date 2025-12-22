@@ -3,12 +3,15 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        man = 0
-        for i in range(0, len(nums), 1):
-            man = i
-            for j in range(i+1, len(nums), 1):
-                if nums[j] < nums[man]:
-                    man = j
-            nums[i], nums[man] = nums[man], nums[i]
-            
-        
+        hashMap = defaultdict(int)
+        for num in nums:
+            hashMap[num] += 1
+        res = []
+        ind = 0
+        for i in range(3):
+            length = 0
+            if i in hashMap:
+                length = hashMap[i]
+            for j in range(length):
+                nums[ind] = i
+                ind += 1
