@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0463-island-perimeter](https://github.com/manavparikh01/LeetCode/tree/master/0463-island-perimeter) |
 | [0503-next-greater-element-ii](https://github.com/manavparikh01/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/manavparikh01/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0528-random-pick-with-weight](https://github.com/manavparikh01/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0529-minesweeper](https://github.com/manavparikh01/LeetCode/tree/master/0529-minesweeper) |
 | [0560-subarray-sum-equals-k](https://github.com/manavparikh01/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
@@ -386,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/manavparikh01/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0304-range-sum-query-2d-immutable](https://github.com/manavparikh01/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/manavparikh01/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0528-random-pick-with-weight](https://github.com/manavparikh01/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/manavparikh01/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/manavparikh01/LeetCode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1985-maximum-subarray-min-product](https://github.com/manavparikh01/LeetCode/tree/master/1985-maximum-subarray-min-product) |
@@ -462,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0278-first-bad-version](https://github.com/manavparikh01/LeetCode/tree/master/0278-first-bad-version) |
 | [0349-intersection-of-two-arrays](https://github.com/manavparikh01/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/manavparikh01/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0528-random-pick-with-weight](https://github.com/manavparikh01/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0792-binary-search](https://github.com/manavparikh01/LeetCode/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0825-friends-of-appropriate-ages](https://github.com/manavparikh01/LeetCode/tree/master/0825-friends-of-appropriate-ages) |
@@ -738,6 +741,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0415-add-strings](https://github.com/manavparikh01/LeetCode/tree/master/0415-add-strings) |
 | [0445-add-two-numbers-ii](https://github.com/manavparikh01/LeetCode/tree/master/0445-add-two-numbers-ii) |
 | [0523-continuous-subarray-sum](https://github.com/manavparikh01/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0528-random-pick-with-weight](https://github.com/manavparikh01/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0640-solve-the-equation](https://github.com/manavparikh01/LeetCode/tree/master/0640-solve-the-equation) |
 | [0897-prime-palindrome](https://github.com/manavparikh01/LeetCode/tree/master/0897-prime-palindrome) |
 | [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
@@ -917,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0384-shuffle-an-array) |
 | [0398-random-pick-index](https://github.com/manavparikh01/LeetCode/tree/master/0398-random-pick-index) |
+| [0528-random-pick-with-weight](https://github.com/manavparikh01/LeetCode/tree/master/0528-random-pick-with-weight) |
 ## Iterator
 |  |
 | ------- |
