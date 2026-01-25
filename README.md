@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/manavparikh01/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0463-island-perimeter](https://github.com/manavparikh01/LeetCode/tree/master/0463-island-perimeter) |
+| [0498-diagonal-traverse](https://github.com/manavparikh01/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/manavparikh01/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/manavparikh01/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0528-random-pick-with-weight](https://github.com/manavparikh01/LeetCode/tree/master/0528-random-pick-with-weight) |
@@ -811,6 +812,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/manavparikh01/LeetCode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/manavparikh01/LeetCode/tree/master/0463-island-perimeter) |
+| [0498-diagonal-traverse](https://github.com/manavparikh01/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0529-minesweeper](https://github.com/manavparikh01/LeetCode/tree/master/0529-minesweeper) |
 | [0695-max-area-of-island](https://github.com/manavparikh01/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/manavparikh01/LeetCode/tree/master/0733-flood-fill) |
@@ -899,6 +901,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/manavparikh01/LeetCode/tree/master/0067-add-binary) |
 | [0289-game-of-life](https://github.com/manavparikh01/LeetCode/tree/master/0289-game-of-life) |
 | [0415-add-strings](https://github.com/manavparikh01/LeetCode/tree/master/0415-add-strings) |
+| [0498-diagonal-traverse](https://github.com/manavparikh01/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0640-solve-the-equation](https://github.com/manavparikh01/LeetCode/tree/master/0640-solve-the-equation) |
 | [0682-baseball-game](https://github.com/manavparikh01/LeetCode/tree/master/0682-baseball-game) |
 | [1708-design-parking-system](https://github.com/manavparikh01/LeetCode/tree/master/1708-design-parking-system) |
