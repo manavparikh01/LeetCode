@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/manavparikh01/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
+| [0791-custom-sort-string](https://github.com/manavparikh01/LeetCode/tree/master/0791-custom-sort-string) |
 | [0817-design-hashmap](https://github.com/manavparikh01/LeetCode/tree/master/0817-design-hashmap) |
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0692-top-k-frequent-words](https://github.com/manavparikh01/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
+| [0791-custom-sort-string](https://github.com/manavparikh01/LeetCode/tree/master/0791-custom-sort-string) |
 | [0824-goat-latin](https://github.com/manavparikh01/LeetCode/tree/master/0824-goat-latin) |
 | [0837-most-common-word](https://github.com/manavparikh01/LeetCode/tree/master/0837-most-common-word) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
@@ -319,6 +321,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/manavparikh01/LeetCode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/manavparikh01/LeetCode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/manavparikh01/LeetCode/tree/master/0778-reorganize-string) |
+| [0791-custom-sort-string](https://github.com/manavparikh01/LeetCode/tree/master/0791-custom-sort-string) |
 | [0825-friends-of-appropriate-ages](https://github.com/manavparikh01/LeetCode/tree/master/0825-friends-of-appropriate-ages) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
