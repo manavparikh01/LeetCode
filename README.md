@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/manavparikh01/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/manavparikh01/LeetCode/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/manavparikh01/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/manavparikh01/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/manavparikh01/LeetCode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/manavparikh01/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/manavparikh01/LeetCode/tree/master/0075-sort-colors) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/manavparikh01/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0022-generate-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/manavparikh01/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0032-longest-valid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/manavparikh01/LeetCode/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/manavparikh01/LeetCode/tree/master/0043-multiply-strings) |
@@ -679,6 +681,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/manavparikh01/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0572-subtree-of-another-tree](https://github.com/manavparikh01/LeetCode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
