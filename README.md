@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/manavparikh01/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/manavparikh01/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0384-shuffle-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0384-shuffle-an-array) |
+| [0393-utf-8-validation](https://github.com/manavparikh01/LeetCode/tree/master/0393-utf-8-validation) |
 | [0399-evaluate-division](https://github.com/manavparikh01/LeetCode/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/manavparikh01/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/manavparikh01/LeetCode/tree/master/0419-battleships-in-a-board) |
@@ -803,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/manavparikh01/LeetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/manavparikh01/LeetCode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/manavparikh01/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [0393-utf-8-validation](https://github.com/manavparikh01/LeetCode/tree/master/0393-utf-8-validation) |
 | [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 ## Matrix
 |  |
