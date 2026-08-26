@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/manavparikh01/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0768-partition-labels](https://github.com/manavparikh01/LeetCode/tree/master/0768-partition-labels) |
 | [0825-friends-of-appropriate-ages](https://github.com/manavparikh01/LeetCode/tree/master/0825-friends-of-appropriate-ages) |
+| [0876-middle-of-the-linked-list](https://github.com/manavparikh01/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [0986-interval-list-intersections](https://github.com/manavparikh01/LeetCode/tree/master/0986-interval-list-intersections) |
 ## Dynamic Programming
 |  |
@@ -508,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/manavparikh01/LeetCode/tree/master/0355-design-twitter) |
 | [0445-add-two-numbers-ii](https://github.com/manavparikh01/LeetCode/tree/master/0445-add-two-numbers-ii) |
 | [0817-design-hashmap](https://github.com/manavparikh01/LeetCode/tree/master/0817-design-hashmap) |
+| [0876-middle-of-the-linked-list](https://github.com/manavparikh01/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 ## Recursion
 |  |
 | ------- |
