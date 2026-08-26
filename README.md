@@ -968,4 +968,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0398-random-pick-index](https://github.com/manavparikh01/LeetCode/tree/master/0398-random-pick-index) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/manavparikh01/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
