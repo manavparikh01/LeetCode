@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/recyclable-and-low-fat-products/">1757. Recyclable and Low Fat Products</a></h2><h3>Easy</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Products</code></p>
+<h2><a href="https://leetcode.com/problems/recyclable-and-low-fat-products">1908. Recyclable and Low Fat Products</a></h2><h3>Easy</h3><hr><p>Table: <code>Products</code></p>
 
-<pre style="position: relative;">+-------------+---------+
+<pre>
++-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | product_id  | int     |
@@ -8,8 +9,8 @@
 | recyclable  | enum    |
 +-------------+---------+
 product_id is the primary key (column with unique values) for this table.
-low_fats is an ENUM (category) of type ('Y', 'N') where 'Y' means this product is low fat and 'N' means it is not.
-recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this product is recyclable and 'N' means it is not.<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+low_fats is an ENUM (category) of type (&#39;Y&#39;, &#39;N&#39;) where &#39;Y&#39; means this product is low fat and &#39;N&#39; means it is not.
+recyclable is an ENUM (category) of types (&#39;Y&#39;, &#39;N&#39;) where &#39;Y&#39; means this product is recyclable and &#39;N&#39; means it is not.</pre>
 
 <p>&nbsp;</p>
 
@@ -22,7 +23,8 @@ recyclable is an ENUM (category) of types ('Y', 'N') where 'Y' means this produc
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Products table:
 +-------------+----------+------------+
 | product_id  | low_fats | recyclable |
@@ -41,5 +43,4 @@ Products table:
 | 3           |
 +-------------+
 <strong>Explanation:</strong> Only products 1 and 3 are both low fat and recyclable.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
-</div>
+</pre>
