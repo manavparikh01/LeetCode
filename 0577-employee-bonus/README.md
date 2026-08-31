@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/employee-bonus/">577. Employee Bonus</a></h2><h3>Easy</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Employee</code></p>
+<h2><a href="https://leetcode.com/problems/employee-bonus">577. Employee Bonus</a></h2><h3>Easy</h3><hr><p>Table: <code>Employee</code></p>
 
-<pre style="position: relative;">+-------------+---------+
+<pre>
++-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | empId       | int     |
@@ -10,13 +11,14 @@
 +-------------+---------+
 empId is the column with unique values for this table.
 Each row of this table indicates the name and the ID of an employee in addition to their salary and the id of their manager.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 
 <p>Table: <code>Bonus</code></p>
 
-<pre style="position: relative;">+-------------+------+
+<pre>
++-------------+------+
 | Column Name | Type |
 +-------------+------+
 | empId       | int  |
@@ -25,11 +27,16 @@ Each row of this table indicates the name and the ID of an employee in addition 
 empId is the column of unique values for this table.
 empId is a foreign key (reference column) to empId from the Employee table.
 Each row of this table contains the id of an employee and their respective bonus.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 
-<p>Write a solution to report the name and bonus amount of each employee with a bonus <strong>less than</strong> <code>1000</code>.</p>
+<p>Write a solution to report the name and bonus amount of each employee who satisfies either of the following:</p>
+
+<ul>
+	<li>The employee has a bonus <strong>less than</strong> <code>1000</code>.</li>
+	<li>The employee did not get any bonus.</li>
+</ul>
 
 <p>Return the result table in <strong>any order</strong>.</p>
 
@@ -38,7 +45,8 @@ Each row of this table contains the id of an employee and their respective bonus
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Employee table:
 +-------+--------+------------+--------+
 | empId | name   | supervisor | salary |
@@ -63,5 +71,4 @@ Bonus table:
 | John | null  |
 | Dan  | 500   |
 +------+-------+
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
-</div>
+</pre>
