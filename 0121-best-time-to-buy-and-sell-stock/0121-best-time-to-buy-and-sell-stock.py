@@ -1,15 +1,12 @@
-class Solution(object):
-    def maxProfit(self, prices):
-        """
-        :type prices: List[int]
-        :rtype: int
-        """
-        max_profit = 0
-        max_value = prices[-1]
-        for i in range(len(prices) - 2, -1, -1):
-            if prices[i] < max_value:
-                profit = max_value - prices[i]
-                max_profit = max(max_profit, profit)
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        MIN = prices[0]
+        out = 0
+        for p in prices:
+            #if the p > MIN
+            if p > MIN:
+                out = max(out, p - MIN)
+            #if p <= MIN
             else:
-                max_value = prices[i]
-        return max_profit
+                MIN = p
+        return out
