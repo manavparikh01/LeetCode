@@ -1,26 +1,17 @@
-class Solution(object):
-    def isAnagram(self, s, t):
-        """
-        :type s: str
-        :type t: str
-        :rtype: bool
-        """
-        if len(s) != len(t):
-            return False
-        hamap = {}
-        for i in s:
-            if i not in hamap:
-                hamap[i] = 1
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        hashmap = {}
+        for schar in s:
+            if schar in hashmap:
+                hashmap[schar] = hashmap[schar] + 1
             else:
-                hamap[i] = hamap[i] + 1
-        for j in t:
-            if j not in hamap:
+                hashmap[schar] = 1
+        for tchar in t:
+            if tchar not in hashmap:
                 return False
-            else:
-                if hamap[j] > 1:
-                    hamap[j] = hamap[j] - 1
-                else:
-                    del hamap[j]
-        if len(hamap) > 0:
-            return False
-        return True
+            hashmap[tchar] = hashmap[tchar] - 1
+            if hashmap[tchar] == 0:
+                del hashmap[tchar]
+        if len(hashmap) == 0:
+            return True
+        return False
