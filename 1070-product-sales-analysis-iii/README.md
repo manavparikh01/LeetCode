@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/product-sales-analysis-iii/">1070. Product Sales Analysis III</a></h2><h3>Medium</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Sales</code></p>
+<h2><a href="https://leetcode.com/problems/product-sales-analysis-iii">1155. Product Sales Analysis III</a></h2><h3>Medium</h3><hr><p>Table: <code>Sales</code></p>
 
-<pre style="position: relative;">+-------------+-------+
+<pre>
++-------------+-------+
 | Column Name | Type  |
 +-------------+-------+
 | sale_id     | int   |
@@ -10,37 +11,31 @@
 | price       | int   |
 +-------------+-------+
 (sale_id, year) is the primary key (combination of columns with unique values) of this table.
-product_id is a foreign key (reference column) to <code>Product</code> table.
-Each row of this table shows a sale on the product product_id in a certain year.
-Note that the price is per unit.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+Each row records a sale of a product in a given year.
+A product may have multiple sales entries in the same year.
+Note that the per-unit price.
 
-<p>&nbsp;</p>
+</pre>
 
-<p>Table: <code>Product</code></p>
+<p>Write a solution to find all sales that occurred in the <strong data-end="967" data-start="953">first year</strong> each product was sold.</p>
 
-<pre style="position: relative;">+--------------+---------+
-| Column Name  | Type    |
-+--------------+---------+
-| product_id   | int     |
-| product_name | varchar |
-+--------------+---------+
-product_id is the primary key (column with unique values) of this table.
-Each row of this table indicates the product name of each product.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+<ul data-end="1234" data-start="992">
+	<li data-end="1078" data-start="992">
+	<p data-end="1078" data-start="994">For each <code data-end="1015" data-start="1003">product_id</code>, identify the earliest <code data-end="1045" data-start="1039">year</code> it appears in the <code data-end="1071" data-start="1064">Sales</code> table.</p>
+	</li>
+	<li data-end="1140" data-start="1079">
+	<p data-end="1140" data-start="1081">Return <strong data-end="1095" data-start="1088">all</strong> sales entries for that product in that year.</p>
+	</li>
+</ul>
 
-<p>&nbsp;</p>
-
-<p>Write a solution to select&nbsp;the <strong>product id</strong>, <strong>year</strong>, <strong>quantity</strong>, and <strong>price</strong> for the <strong>first year</strong> of every product sold.</p>
-
-<p>Return the resulting table in <strong>any order</strong>.</p>
-
-<p>The&nbsp;result format is in the following example.</p>
+<p data-end="1234" data-start="1143">Return a table with the following columns: <strong>product_id</strong>,<strong> first_year</strong>, <strong>quantity, </strong>and<strong> price</strong>.<br />
+Return the result in any order.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Sales table:
 +---------+------------+------+----------+-------+
 | sale_id | product_id | year | quantity | price |
@@ -49,14 +44,7 @@ Sales table:
 | 2       | 100        | 2009 | 12       | 5000  |
 | 7       | 200        | 2011 | 15       | 9000  |
 +---------+------------+------+----------+-------+
-Product table:
-+------------+--------------+
-| product_id | product_name |
-+------------+--------------+
-| 100        | Nokia        |
-| 200        | Apple        |
-| 300        | Samsung      |
-+------------+--------------+
+
 <strong>Output:</strong> 
 +------------+------------+----------+-------+
 | product_id | first_year | quantity | price |
@@ -64,5 +52,4 @@ Product table:
 | 100        | 2008       | 10       | 5000  |
 | 200        | 2011       | 15       | 9000  |
 +------------+------------+----------+-------+
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
-</div>
+</pre>
