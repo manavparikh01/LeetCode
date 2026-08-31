@@ -1,9 +1,12 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        hashmap = defaultdict(int)
-        for char in s:
-            hashmap[char] = hashmap[char] + 1
-        for i in range(len(s)):
-            if hashmap[s[i]] == 1:
-                return i
+        count = collections.Counter(s)
+        out = float('inf')
+        for key in count:
+            if count[key] == 1:
+                out = min(out, s.find(key))
+        if out < len(s):
+            return out
         return -1
+
+        
