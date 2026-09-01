@@ -1,25 +1,16 @@
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+class Solution:
+    def isValid(self, s: str) -> bool:
         stack = []
-        for i in range(len(s)):
-            if s[i] == '(' or s[i] == '[' or s[i] == '{':
-                stack.append(s[i])
-            elif s[i] == ')':
-                if len(stack) == 0 or stack[-1] != '(':
-                    return False
-                stack.pop()
-            elif s[i] == ']':
-                if len(stack) == 0 or stack[-1] != '[':
-                    return False
-                stack.pop()
-            elif s[i] == '}':
-                if len(stack) == 0 or stack[-1] != '{':
-                    return False
-                stack.pop()
+        hashmap = {')': '(', '}': '{', ']': '['}
+        for schar in s:
+            if len(stack) == 0:
+                stack.append(schar)
             else:
-                return False
+                if schar in hashmap:
+                    if stack[-1] == hashmap[schar]:
+                        stack.pop()
+                    else:
+                        stack.append(schar)
+                else:
+                    stack.append(schar)
         return len(stack) == 0
