@@ -9,7 +9,7 @@ class MinStack:
         self.list.append([value, self.min])
 
     def pop(self) -> None:
-        self.list = self.list[0:-1]
+        self.list.pop()
         if len(self.list) == 0:
             self.min = float('inf')
         else:
