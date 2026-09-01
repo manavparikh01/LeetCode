@@ -999,4 +999,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1070-product-sales-analysis-iii](https://github.com/manavparikh01/LeetCode/tree/master/1070-product-sales-analysis-iii) |
 | [1741-find-total-time-spent-by-each-employee](https://github.com/manavparikh01/LeetCode/tree/master/1741-find-total-time-spent-by-each-employee) |
 | [1757-recyclable-and-low-fat-products](https://github.com/manavparikh01/LeetCode/tree/master/1757-recyclable-and-low-fat-products) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/manavparikh01/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
