@@ -4,17 +4,15 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        uniquehash = {}
-        values = []
-        for i in strs:
-            ascilist = [0] * 26
-            for characters in i:
-                ascilist[ord(characters)-ord('a')] = ascilist[ord(characters)-ord('a')] + 1
-            ascituple = tuple(ascilist)
-            if ascituple not in uniquehash:
-                uniquehash[ascituple] = [i]
+        hashmap = {}
+        output = []
+        for st in strs:
+            sorted_list = sorted(st)
+            sorted_str = "".join(sorted_list)
+            if sorted_str in hashmap:
+                hashmap[sorted_str].append(st)
             else:
-                uniquehash[ascituple].append(i)
-        for value in uniquehash.values():
-            values.append(value)
-        return values
+                hashmap[sorted_str] = [st]
+        for key in hashmap:
+            output.append(hashmap[key])
+        return output
