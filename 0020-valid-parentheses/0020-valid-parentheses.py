@@ -10,7 +10,7 @@ class Solution:
                     if stack[-1] == hashmap[schar]:
                         stack.pop()
                     else:
-                        stack.append(schar)
+                        return False
                 else:
                     stack.append(schar)
         return len(stack) == 0
