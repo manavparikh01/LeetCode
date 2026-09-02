@@ -993,6 +993,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0182-duplicate-emails](https://github.com/manavparikh01/LeetCode/tree/master/0182-duplicate-emails) |
 | [0185-department-top-three-salaries](https://github.com/manavparikh01/LeetCode/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/manavparikh01/LeetCode/tree/master/0196-delete-duplicate-emails) |
+| [0197-rising-temperature](https://github.com/manavparikh01/LeetCode/tree/master/0197-rising-temperature) |
 | [0550-game-play-analysis-iv](https://github.com/manavparikh01/LeetCode/tree/master/0550-game-play-analysis-iv) |
 | [0577-employee-bonus](https://github.com/manavparikh01/LeetCode/tree/master/0577-employee-bonus) |
 | [0596-classes-with-at-least-5-students](https://github.com/manavparikh01/LeetCode/tree/master/0596-classes-with-at-least-5-students) |
