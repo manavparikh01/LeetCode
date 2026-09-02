@@ -997,6 +997,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0577-employee-bonus](https://github.com/manavparikh01/LeetCode/tree/master/0577-employee-bonus) |
 | [0596-classes-with-at-least-5-students](https://github.com/manavparikh01/LeetCode/tree/master/0596-classes-with-at-least-5-students) |
 | [1070-product-sales-analysis-iii](https://github.com/manavparikh01/LeetCode/tree/master/1070-product-sales-analysis-iii) |
+| [1141-user-activity-for-the-past-30-days-i](https://github.com/manavparikh01/LeetCode/tree/master/1141-user-activity-for-the-past-30-days-i) |
 | [1741-find-total-time-spent-by-each-employee](https://github.com/manavparikh01/LeetCode/tree/master/1741-find-total-time-spent-by-each-employee) |
 | [1757-recyclable-and-low-fat-products](https://github.com/manavparikh01/LeetCode/tree/master/1757-recyclable-and-low-fat-products) |
 ## Bracket Sequences
