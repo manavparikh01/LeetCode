@@ -1,12 +1,11 @@
 # Write your MySQL query statement below
-WITH Firstdeliv AS (SELECT customer_id, MIN(order_date) AS firstdate
-FROM Delivery
-GROUP BY customer_id)
-SELECT ROUND(SUM(IF(f.firstdate = d.customer_pref_delivery_date, 1, 0)*100/(SELECT COUNT(*)
-FROM Firstdeliv)), 2) AS immediate_percentage
-FROM Delivery AS d
-JOIN Firstdeliv AS f
-ON d.customer_id = f.customer_id AND d.order_date = f.firstdate
-
-
-
+WITH cust_first_order_date AS (SELECT customer_id, MIN(order_date) AS first_order_date FROM Delivery
+GROUP BY customer_id),
+c_f_emmediate AS (SELECT c.customer_id FROM cust_first_order_date c
+JOIN Delivery d
+ON c.customer_id = d.customer_id AND c.first_order_date = d.order_date
+WHERE d.order_date = d.customer_pref_delivery_date)
+SELECT ROUND(
+    (SELECT COUNT(customer_id) FROM c_f_emmediate) /
+    (SELECT COUNT(customer_id) FROM cust_first_order_date) * 100, 2
+) AS immediate_percentage
