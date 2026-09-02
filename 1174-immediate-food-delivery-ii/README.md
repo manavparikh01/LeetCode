@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/immediate-food-delivery-ii/">1174. Immediate Food Delivery II</a></h2><h3>Medium</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Delivery</code></p>
+<h2><a href="https://leetcode.com/problems/immediate-food-delivery-ii">1292. Immediate Food Delivery II</a></h2><h3>Medium</h3><hr><p>Table: <code>Delivery</code></p>
 
-<pre>+-----------------------------+---------+
+<pre>
++-----------------------------+---------+
 | Column Name                 | Type    |
 +-----------------------------+---------+
 | delivery_id                 | int     |
@@ -14,7 +15,7 @@ The table holds information about food delivery to customers that make orders at
 
 <p>&nbsp;</p>
 
-<p>If the customer's preferred delivery date is the same as the order date, then the order is called <strong>immediate;</strong> otherwise, it is called <strong>scheduled</strong>.</p>
+<p>If the customer&#39;s preferred delivery date is the same as the order date, then the order is called <strong>immediate;</strong> otherwise, it is called <strong>scheduled</strong>.</p>
 
 <p>The <strong>first order</strong> of a customer is the order with the earliest order date that the customer made. It is guaranteed that a customer has precisely one first order.</p>
 
@@ -25,7 +26,8 @@ The table holds information about food delivery to customers that make orders at
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Delivery table:
 +-------------+-------------+------------+-----------------------------+
 | delivery_id | customer_id | order_date | customer_pref_delivery_date |
@@ -51,4 +53,3 @@ The customer id 3 has a first order with delivery id 5 and it is scheduled.
 The customer id 4 has a first order with delivery id 7 and it is immediate.
 Hence, half the customers have immediate first orders.
 </pre>
-</div>
