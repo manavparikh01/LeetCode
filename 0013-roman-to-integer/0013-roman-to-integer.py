@@ -1,10 +1,10 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
-        dictionary = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-        res = 0
-        for i in range(len(s)):
-            if i + 1 < len(s) and dictionary[s[i]] < dictionary[s[i + 1]]:
-                res -= dictionary[s[i]]
+        val = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        total = 0
+        for i in range(0, len(s)):
+            if i + 1 < len(s) and val[s[i]] < val[s[i + 1]]:
+                total -= val[s[i]]
             else:
-                res += dictionary[s[i]]
-        return res
+                total += val[s[i]]
+        return total
