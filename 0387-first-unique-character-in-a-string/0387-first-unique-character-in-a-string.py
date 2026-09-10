@@ -1,10 +1,8 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         count = collections.Counter(s)
-        out = float('inf')
-        for i, c in enumerate(s):
-            if count[c] == 1:
-                return i
+        for indx, schar in enumerate(s):
+            if count[schar] == 1:
+                return indx
         return -1
-
         
