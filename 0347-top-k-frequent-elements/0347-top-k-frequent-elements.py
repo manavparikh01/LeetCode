@@ -1,19 +1,14 @@
-class Solution(object):
-    def topKFrequent(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: List[int]
-        """
-        dic = {}
-        res = [[] for i in range(len(nums) + 1)]
-        for i in nums:
-            dic[i] = 1 + dic.get(i, 0)
-        for n, c in dic.items():
-            res[c].append(n)
-        fin = []
-        for i in range(len(res) - 1, 0, -1):
-            for n in res[i]:
-                fin.append(n)
-                if len(fin) == k:
-                    return fin
+class Solution:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
+        hashmap = defaultdict(int)
+        for num in nums:
+            hashmap[num] = hashmap[num] + 1
+        heap = []
+        for key, values in hashmap.items():
+            heapq.heappush(heap, (values, key))
+            if len(heap) > k:
+                heapq.heappop(heap)
+        finallist = []
+        for value, key in heap:
+            finallist.append(key)
+        return finallist
