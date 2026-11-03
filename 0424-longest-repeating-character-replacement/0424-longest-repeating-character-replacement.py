@@ -1,20 +1,12 @@
-class Solution(object):
-    def characterReplacement(self, s, k):
-        """
-        :type s: str
-        :type k: int
-        :rtype: int
-        """
-        count = {}
-        res = 0
+class Solution:
+    def characterReplacement(self, s: str, k: int) -> int:
+        hashmap = defaultdict(int)
+        rescount = 0
         l = 0
-        maxf = 0
-        for h in range(len(s)):
-            count[s[h]] = count.get(s[h], 0) + 1
-            maxf = max(maxf, count[s[h]])
-            while (h - l + 1) - maxf > k:
-                count[s[l]] -= 1
+        for i in range(len(s)):
+            hashmap[s[i]] += 1
+            while (i - l + 1) - max(hashmap.values()) > k:
+                hashmap[s[l]] -= 1
                 l += 1
-            
-            res = max(res, h - l + 1)
-        return res
+            rescount = max(rescount, i - l + 1)
+        return rescount
