@@ -1,16 +1,19 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        prefix_sum = [0] * len(nums)
-        total = 0
-        count = 0
-        for i, num in enumerate(nums):
-            total += num
-            prefix_sum[i] = total
+        # [1, 2, 3]
+        # [1, 3, 6]
         hashmap = defaultdict(int)
-        for i in prefix_sum:
-            if i == k:
-                count += 1
-            if i - k in hashmap:
-                count += hashmap[i - k]
-            hashmap[i] += 1
-        return count
+        lnums = [0] * len(nums)
+        lnums[0] = nums[0]
+        rescount = 0
+        for i in range(1, len(nums)):
+            lnums[i] = lnums[i - 1] + nums[i]
+        # print(lnums)
+        for num in lnums:
+            # print(setlist, num - k, num)
+            if num == k:
+                rescount += 1
+            if num - k in hashmap:
+                rescount += hashmap[num - k]
+            hashmap[num] += 1
+        return rescount
