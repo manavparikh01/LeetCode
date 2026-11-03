@@ -1,17 +1,13 @@
-class Solution(object):
-    def maxArea(self, height):
-        """
-        :type height: List[int]
-        :rtype: int
-        """
-        low = 0
-        high = len(height) - 1
-        max_water = 0
-        while low < high:
-            water = (high - low) * min(height[low], height[high])
-            max_water = max(max_water, water)
-            if height[low] <= height[high]:
-                low += 1
+class Solution:
+    def maxArea(self, height: list[int]) -> int:
+        # 1, 7 -> 8, 7 -> 
+        l = 0
+        h = len(height) - 1
+        maxarea = 0
+        while l < h:
+            maxarea = max(maxarea, min(height[l], height[h]) * (h - l))
+            if height[h] >= height[l]:
+                l += 1
             else:
-                high -= 1
-        return max_water
+                h -= 1
+        return maxarea
