@@ -1,16 +1,14 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
-        hashmap = {')': '(', '}': '{', ']': '['}
+        openpara = set(['(', '{', '['])
+        closepara = {')': '(', '}': '{', ']': '['}
         for schar in s:
-            if len(stack) == 0:
+            if schar in openpara:
                 stack.append(schar)
             else:
-                if schar in hashmap:
-                    if stack[-1] == hashmap[schar]:
-                        stack.pop()
-                    else:
-                        return False
+                if len(stack) == 0 or closepara[schar] != stack[-1]:
+                    return False
                 else:
-                    stack.append(schar)
-        return len(stack) == 0
+                    stack.pop()
+        return True if len(stack) == 0 else False
