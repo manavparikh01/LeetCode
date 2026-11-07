@@ -7,19 +7,13 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
-        res = None
-        isFound = False
-        def dp(node):
-            nonlocal res, isFound
-            if node == None or isFound == True:
-                return False
-            left = dp(node.left)
-            middle = True if node == p or node == q else False
-            right = dp(node.right)
-            if ((left and middle) or (middle and right) or (left and right)) and isFound == False:
-                res = node
-                isFound = True
-            return (left or middle or right)
-        dp(root)
-        return res
+        def inOrder(node):
+            if node is None or node == p or node == q:
+                return node
+            left = inOrder(node.left)
+            right = inOrder(node.right)
+            if left and right:
+                return node
+            return left if left else right
+        return inOrder(root)
         
