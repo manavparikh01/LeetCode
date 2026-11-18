@@ -1,31 +1,39 @@
 class Solution:
-    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        hashmap = {}
-        isPossible = set()
-        notPossible = set()
-        visited = set()
-        for depends in prerequisites:
-            if depends[0] in hashmap:
-                hashmap[depends[0]].append(depends[1])
-            else:
-                hashmap[depends[0]] = [depends[1]]
-
-        def ifPossible(i):
-            if i not in hashmap or i in isPossible:
-                return True
-            if i in notPossible or i in visited:
-                return False
-            visited.add(i)
-            for idx in hashmap[i]:
-                if ifPossible(idx) == False:
-                    notPossible.add(i)
-                    return False
-            visited.remove(i)
-            isPossible.add(i)
+    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:
+        if len(prerequisites) == 0:
             return True
-        
-        for i in range(numCourses):
-            if ifPossible(i) == False:
+        hashdict = {}
+        tset = set()
+        yset = set()
+        for listi in prerequisites:
+            if listi[0] == listi[1]:
+                return False
+            if listi[0] not in hashdict:
+                hashdict[listi[0]] = [listi[1]]
+            else:
+                hashdict[listi[0]].append(listi[1])
+
+        def dfs(key):
+            if key not in hashdict:
+                yset.add(key)
+                return True
+            if key in yset:
+                return True
+            if key in tset:
+                return False
+            tset.add(key)
+            for val in hashdict[key]:
+                if dfs(val) == False:
+                    return False
+                yset.add(val)
+            tset.remove(key)
+            yset.add(key)
+            return True
+
+        for key in hashdict:
+            if dfs(key) == False:
                 return False
         
         return True
+
+        
