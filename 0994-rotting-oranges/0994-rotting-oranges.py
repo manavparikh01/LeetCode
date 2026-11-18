@@ -1,38 +1,33 @@
-class Solution(object):
-    def orangesRotting(self, grid):
-        """
-        :type grid: List[List[int]]
-        :rtype: int
-        """
-        q = collections.deque()
-        fresh = 0
-        time = 0
+class Solution:
+    def orangesRotting(self, grid: list[list[int]]) -> int:
+        rows = len(grid)
+        cols = len(grid[0])
+        countgrid = [[0 for _ in range(cols)] for _ in range(rows)]
+        visitedgrid = [[False for _ in range(cols)] for _ in range(rows)]
+        fincount = 0
 
-        for r in range(len(grid)):
-            for c in range(len(grid[0])):
-                if grid[r][c] == 1:
-                    fresh += 1
-                if grid[r][c] == 2:
-                    q.append((r, c))
+        def dfs(i, j, count):
+            if i < 0 or j < 0 or i >= rows or j >= cols:
+                return
+            if grid[i][j] == 0 or (visitedgrid[i][j] == True and countgrid[i][j] <= count):
+                return
+            countgrid[i][j] = count
+            visitedgrid[i][j] = True
+            dfs(i - 1, j, count + 1)
+            dfs(i, j + 1, count + 1)
+            dfs(i + 1, j, count + 1)
+            dfs(i, j - 1, count + 1)
+            return
 
-        directions = [[0, 1], [0, -1], [1, 0], [-1, 0]]
-        while fresh > 0 and q:
-            length = len(q)
-            for i in range(length):
-                r, c = q.popleft()
+        for i in range(rows):
+            for j in range(cols):
+                if grid[i][j] == 2:
+                    dfs(i, j, 0)
 
-                for dr, dc in directions:
-                    row, col = r + dr, c + dc
-                    # if in bounds and nonrotten, make rotten
-                    # and add to q
-                    if (
-                        row in range(len(grid))
-                        and col in range(len(grid[0]))
-                        and grid[row][col] == 1
-                    ):
-                        grid[row][col] = 2
-                        q.append((row, col))
-                        fresh -= 1
-            time += 1
-        return time if fresh == 0 else -1
+        for i in range(rows):
+            for j in range(cols):
+                if grid[i][j] == 1 and visitedgrid[i][j] == False:
+                    return -1
+                fincount = max(fincount, countgrid[i][j])
         
+        return fincount
