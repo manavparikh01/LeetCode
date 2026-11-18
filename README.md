@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0986-interval-list-intersections](https://github.com/manavparikh01/LeetCode/tree/master/0986-interval-list-intersections) |
 | [0990-verifying-an-alien-dictionary](https://github.com/manavparikh01/LeetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
+| [0994-rotting-oranges](https://github.com/manavparikh01/LeetCode/tree/master/0994-rotting-oranges) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/manavparikh01/LeetCode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
@@ -655,6 +656,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0945-snakes-and-ladders](https://github.com/manavparikh01/LeetCode/tree/master/0945-snakes-and-ladders) |
+| [0994-rotting-oranges](https://github.com/manavparikh01/LeetCode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/manavparikh01/LeetCode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/manavparikh01/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Binary Tree
@@ -852,6 +854,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0766-toeplitz-matrix](https://github.com/manavparikh01/LeetCode/tree/master/0766-toeplitz-matrix) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0945-snakes-and-ladders](https://github.com/manavparikh01/LeetCode/tree/master/0945-snakes-and-ladders) |
+| [0994-rotting-oranges](https://github.com/manavparikh01/LeetCode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/manavparikh01/LeetCode/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/manavparikh01/LeetCode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Trie
