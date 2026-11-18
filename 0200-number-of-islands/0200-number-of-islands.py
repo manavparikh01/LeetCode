@@ -1,18 +1,27 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        total = 0
-        def dp(i, j):
-            if i < 0 or i >= len(grid) or j < 0 or j >= len(grid[0]) or grid[i][j] == "0":
+        rows = len(grid)
+        cols = len(grid[0])
+        visitedarr = [[False for _ in range(cols)] for _ in range(rows)]
+        count = 0
+        def dfs(i, j, grid):
+            nonlocal visitedarr, rows, cols
+            if i < 0 or j < 0 or i >= rows or j >= cols:
                 return
-            grid[i][j] = "0"
-            dp(i , j + 1)
-            dp(i + 1, j)
-            dp(i, j - 1)
-            dp(i - 1, j)
+            if grid[i][j] == '0' or visitedarr[i][j] == True:
+                return
+            visitedarr[i][j] = True
+            dfs(i - 1, j, grid)
+            dfs(i, j + 1, grid)
+            dfs(i + 1, j, grid)
+            dfs(i, j - 1, grid)
             return
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == "1":
-                    total += 1
-                    dp(i, j)
-        return total
+
+        for i in range(rows):
+            for j in range(cols):
+                if grid[i][j] == '0' or visitedarr[i][j] == True:
+                    continue
+                dfs(i, j, grid)
+                count += 1
+        
+        return count
