@@ -1056,4 +1056,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/manavparikh01/LeetCode/tree/master/0543-diameter-of-binary-tree) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/manavparikh01/LeetCode/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
