@@ -106,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0932-monotonic-array](https://github.com/manavparikh01/LeetCode/tree/master/0932-monotonic-array) |
 | [0943-sum-of-subarray-minimums](https://github.com/manavparikh01/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/manavparikh01/LeetCode/tree/master/0945-snakes-and-ladders) |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
 | [0986-interval-list-intersections](https://github.com/manavparikh01/LeetCode/tree/master/0986-interval-list-intersections) |
 | [0990-verifying-an-alien-dictionary](https://github.com/manavparikh01/LeetCode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0791-custom-sort-string](https://github.com/manavparikh01/LeetCode/tree/master/0791-custom-sort-string) |
 | [0825-friends-of-appropriate-ages](https://github.com/manavparikh01/LeetCode/tree/master/0825-friends-of-appropriate-ages) |
 | [0876-hand-of-straights](https://github.com/manavparikh01/LeetCode/tree/master/0876-hand-of-straights) |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [0974-reorder-data-in-log-files](https://github.com/manavparikh01/LeetCode/tree/master/0974-reorder-data-in-log-files) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1397-search-suggestions-system](https://github.com/manavparikh01/LeetCode/tree/master/1397-search-suggestions-system) |
@@ -366,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/manavparikh01/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
 |  |
@@ -383,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/manavparikh01/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/manavparikh01/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/manavparikh01/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/manavparikh01/LeetCode/tree/master/1127-last-stone-weight) |
 | [1397-search-suggestions-system](https://github.com/manavparikh01/LeetCode/tree/master/1397-search-suggestions-system) |
@@ -410,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/manavparikh01/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/manavparikh01/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Prefix Sum
 |  |
@@ -786,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0528-random-pick-with-weight](https://github.com/manavparikh01/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0640-solve-the-equation](https://github.com/manavparikh01/LeetCode/tree/master/0640-solve-the-equation) |
 | [0897-prime-palindrome](https://github.com/manavparikh01/LeetCode/tree/master/0897-prime-palindrome) |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [0994-prison-cells-after-n-days](https://github.com/manavparikh01/LeetCode/tree/master/0994-prison-cells-after-n-days) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/manavparikh01/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -793,6 +799,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/manavparikh01/LeetCode/tree/master/0149-max-points-on-a-line) |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/1014-k-closest-points-to-origin) |
 ## Backtracking
 |  |
@@ -1060,4 +1067,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/manavparikh01/LeetCode/tree/master/0127-word-ladder) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/manavparikh01/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
