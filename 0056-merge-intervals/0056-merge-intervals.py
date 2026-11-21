@@ -1,17 +1,13 @@
 class Solution:
-    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-        sortedIntervals = sorted(intervals, key=lambda x:x[0])
-        i = 0
-        res = []
-        while i < len(sortedIntervals) - 1:
-            curr = i
-            secondpart = sortedIntervals[curr][1]
-            while i < len(sortedIntervals) - 1 and sortedIntervals[i+1][0] <= secondpart:
-                i += 1
-                secondpart = max(secondpart, sortedIntervals[i][1])
-            res.append([sortedIntervals[curr][0], secondpart])
-            i += 1
-        print(i)
-        if i == len(sortedIntervals) - 1:
-            res.append(sortedIntervals[i])
+    def merge(self, intervals: list[list[int]]) -> list[list[int]]:
+        heap = []
+        for interval in intervals:
+            heapq.heappush(heap, interval)
+        res = [heapq.heappop(heap)]
+        while heap:
+            interval = heapq.heappop(heap)
+            if len(res) > 0 and interval[0] > res[-1][1]:
+                res.append(interval)
+            else:
+                res[-1][1] = max(res[-1][1], interval[1])
         return res
