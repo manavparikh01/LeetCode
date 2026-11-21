@@ -5,22 +5,20 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        freq = {}
-        max_heap = []
+        hashmap = defaultdict(int)
         for task in tasks:
-            freq[task] = 1 + max(freq.get(task), 0)
-        for value in freq.values():
-            heapq.heappush(max_heap, -value)
-        time = 0
+            hashmap[task] += 1
+        maxheap = []
+        for values in hashmap.values():
+            heapq.heappush(maxheap, -values)
         queue = deque()
-        while max_heap or queue:
+        time = 0
+        while maxheap or queue:
             time += 1
-            if max_heap:
-                count = 1+ heapq.heappop(max_heap)
+            if maxheap:
+                count = 1 + heapq.heappop(maxheap)
                 if count:
                     queue.append([count, time + n])
-            if queue and queue[0][1] == time:
-                val = queue.popleft()[0]
-                heapq.heappush(max_heap, val)
-
+            if queue and queue[0][1] <= time:
+                heapq.heappush(maxheap, queue.popleft()[0])
         return time
